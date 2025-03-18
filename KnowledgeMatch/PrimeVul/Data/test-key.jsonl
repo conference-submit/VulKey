@@ -1,0 +1,435 @@
+{"cwe": "CWE-704", "cwe_name": "Incorrect Type Conversion or Cast", "template": {"Insert Cast Statement": "%.20g"}}
+{"cwe": "CWE-190", "cwe_name": "Integer Overflow or Wraparound", "template": {"Insert Cast Statement": "((ssize_t) pixel)"}}
+{"cwe": "CWE-401", "cwe_name": "Missing Release of Memory after Effective Lifetime", "template": {"Insert Release Resource": "delete_kernel"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Null Pointer Checker": "sig_def_outputs_it == sig_def_outputs.end()"}}
+{"cwe": "CWE-617", "cwe_name": "Reachable Assertion", "template": {"Insert Conditional Expression": "if (!s.ok()) return s;"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Null Pointer Checker": "!hmhd"}}
+{"cwe": "CWE-617", "cwe_name": "Reachable Assertion", "template": {"Insert Conditional Expression": "IsRefType"}}
+{"cwe": "CWE-287", "cwe_name": "Improper Authentication", "template": {"Remove Buggy Statement": "delete"}}
+{"cwe": "CWE-190", "cwe_name": "Integer Overflow or Wraparound", "template": {"Insert Method Invocation Expression": "TensorShape::BuildTensorShape"}}
+{"cwe": "CWE-909", "cwe_name": "Missing Initialization of Resource", "template": {"Mutate Literal Expression": "openflags--"}}
+{"cwe": "CWE-401", "cwe_name": "Missing Release of Memory after Effective Lifetime", "template": {"Insert Release Resource": "MakeCleanup"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Range Checker": "if (ix >= node_t.args_size())"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Null Pointer Checker": "mrb_ary_ptr"}}
+{"cwe": "CWE-354", "cwe_name": "Improper Validation of Integrity Check Value", "template": {"Insert Method Invocation Expression": "OP_REQUIRES_OK"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Null Pointer Checker": "if (flr->config_proto())"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Range Checker": "splits_values"}}
+{"cwe": "CWE-369", "cwe_name": "Divide By Zero", "template": {"Insert Conditional Expression": "if"}}
+{"cwe": "CWE-617", "cwe_name": "Reachable Assertion", "template": {"Insert Null Pointer Checker": "if (input == nullptr)"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Missed Statement": "memcpy"}}
+{"cwe": "CWE-120", "cwe_name": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')", "template": {"Insert Range Checker": "if ((pps_id<0) || (pps_id > 255))"}}
+{"cwe": "CWE-416", "cwe_name": "Use After Free", "template": {"Remove Buggy Statement": "png::CommonFreeDecode(&decode)"}}
+{"cwe": "CWE-415", "cwe_name": "Double Free", "template": {"Insert Missed Statement": "gf_bs_align"}}
+{"cwe": "CWE-862", "cwe_name": "Missing Authorization", "template": {"Insert Method Invocation Expression": "vmcb_set_intercept"}}
+{"cwe": "CWE-617", "cwe_name": "Reachable Assertion", "template": {"Insert Conditional Expression": "else"}}
+{"cwe": "CWE-754", "cwe_name": "Improper Check for Unusual or Exceptional Conditions", "template": {"Insert Method Invocation Expression": "builder->create<tensor::FromElementsOp>"}}
+{"cwe": "CWE-843", "cwe_name": "Access of Resource Using Incompatible Type ('Type Confusion')", "template": {"Mutate Control Statement": "break"}}
+{"cwe": "CWE-295", "cwe_name": "Improper Certificate Validation", "template": {"Insert Method Invocation Expression": "X509_VERIFY_PARAM_set1_host"}}
+{"cwe": "CWE-362", "cwe_name": "Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')", "template": {"Insert Method Invocation Expression": "check_owned_directory_mode"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Range Checker": "if ((char*)rb_hdr + sizeof(*rb_rr_time) <= (char*)pkt + size)"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Null Pointer Checker": "return -1"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Range Checker": "output_port"}}
+{"cwe": "CWE-617", "cwe_name": "Reachable Assertion", "template": {"Insert Conditional Expression": "return errors::Internal"}}
+{"cwe": "CWE-190", "cwe_name": "Integer Overflow or Wraparound", "template": {"Insert Cast Statement": "CastDoubleToLong"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Mutate Conditional Expression": "cc[-1] == XCL_PROP"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Null Pointer Checker": "return false"}}
+{"cwe": "CWE-908", "cwe_name": "Use of Uninitialized Resource", "template": {"Insert Conditional Expression": "OP_REQUIRES"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Conditional Expression": "val"}}
+{"cwe": "CWE-843", "cwe_name": "Access of Resource Using Incompatible Type ('Type Confusion')", "template": {"Insert Range Checker": "key_tensor->NumElements() == 1"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Mutate Conditional Expression": "if (n == 13 || n == 14)"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Method Invocation Expression": "drain"}}
+{"cwe": "CWE-20", "cwe_name": "Improper Input Validation", "template": {"Insert Missed Statement": "chroot"}}
+{"cwe": "CWE-400", "cwe_name": "Uncontrolled Resource Consumption", "template": {"Mutate Data Type": "SBuf"}}
+{"cwe": "CWE-415", "cwe_name": "Double Free", "template": {"Mutate Literal Expression": "2048"}}
+{"cwe": "CWE-843", "cwe_name": "Access of Resource Using Incompatible Type ('Type Confusion')", "template": {"Mutate Data Type": "int64"}}
+{"cwe": "CWE-415", "cwe_name": "Double Free", "template": {"Insert Null Pointer Checker": "GF_SAFEALLOC"}}
+{"cwe": "CWE-190", "cwe_name": "Integer Overflow or Wraparound", "template": {"Insert Method Invocation Expression": "TensorShape::BuildTensorShape"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Range Checker": "in_row_start >= 0 && in_row_end >= 0"}}
+{"cwe": "CWE-276", "cwe_name": "Incorrect Default Permissions", "template": {"Insert Null Pointer Checker": "fp_metadata"}}
+{"cwe": "CWE-522", "cwe_name": "Insufficiently Protected Credentials", "template": {"Insert Missed Statement": "appendPQExpBufferStr"}}
+{"cwe": "CWE-617", "cwe_name": "Reachable Assertion", "template": {"Insert Method Invocation Expression": "LOG(ERROR)"}}
+{"cwe": "CWE-190", "cwe_name": "Integer Overflow or Wraparound", "template": {"Insert Range Checker": "OP_REQUIRES"}}
+{"cwe": "CWE-134", "cwe_name": "Use of Externally-Controlled Format String", "template": {"Insert Variable": "\"%s\""}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Null Pointer Checker": "input_node == nullptr"}}
+{"cwe": "CWE-190", "cwe_name": "Integer Overflow or Wraparound", "template": {"Mutate Data Type": "size_t"}}
+{"cwe": "CWE-190", "cwe_name": "Integer Overflow or Wraparound", "template": {"Mutate Data Type": "size_t"}}
+{"cwe": "CWE-369", "cwe_name": "Divide By Zero", "template": {"Insert Range Checker": "OP_REQUIRES"}}
+{"cwe": "CWE-190", "cwe_name": "Integer Overflow or Wraparound", "template": {"Insert Cast Statement": "CastDoubleToLong"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Null Pointer Checker": "if (ptr->entries)"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Range Checker": "NumElements"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Mutate Conditional Expression": "((argc > 9) && (strcmp (argv[8], \"*\") == 0))"}}
+{"cwe": "CWE-119", "cwe_name": "Improper Restriction of Operations within the Bounds of a Memory Buffer", "template": {"Insert Range Checker": "tmplen < 64"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Method Invocation Expression": "iov_from_buf"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Null Pointer Checker": "errors::InvalidArgument(\"Empty resource handle\")"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Conditional Expression": "deleted->object.fast_array"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Missed Statement": "pj_scan_advance_n"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Conditional Expression": "if ((target_class->flags & MRB_FL_CLASS_IS_PREPENDED) || target_class->tt == MRB_TT_MODULE)"}}
+{"cwe": "CWE-200", "cwe_name": "Exposure of Sensitive Information to an Unauthorized Actor", "template": {"Insert Range Checker": "configASSERT"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Conditional Expression": "if"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Conditional Expression": "return false"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Conditional Expression": "if (lines == 0)"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Null Pointer Checker": "if (!a) return GF_ISOM_INVALID_FILE;"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Range Checker": "num_indices == num_values"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Range Checker": "num_streams >= 0"}}
+{"cwe": "CWE-369", "cwe_name": "Divide By Zero", "template": {"Insert Conditional Expression": "if(bi->pixelsize>0)"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Release Resource": "efree"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Null Pointer Checker": "device_path"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Range Checker": "if ((i < 0) || (i >= MNG_MAX_OBJECTS)) continue;"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Range Checker": "return PJLIB_UTIL_EDNSINSIZE"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Range Checker": "0 <= loc && loc < output_elements"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Null Pointer Checker": "gf_malloc"}}
+{"cwe": "CWE-269", "cwe_name": "Improper Privilege Management", "template": {"Insert Range Checker": "QENC_MIN_DYN_TABLE_SIZE"}}
+{"cwe": "CWE-200", "cwe_name": "Exposure of Sensitive Information to an Unauthorized Actor", "template": {"Mutate Method Invocation Expression": "crypto_memneq"}}
+{"cwe": "CWE-416", "cwe_name": "Use After Free", "template": {"Insert Method Invocation Expression": "get_line_and_copy"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Mutate Conditional Expression": "while (s > 0 && VIM_ISWHITE(*(bd->textstart + s - 1)))"}}
+{"cwe": "CWE-369", "cwe_name": "Divide By Zero", "template": {"Insert Conditional Expression": "ValidateInput<T>(updates)"}}
+{"cwe": "CWE-284", "cwe_name": "Improper Access Control", "template": {"Insert Conditional Expression": "booth_conf->authfile[0] != '\\0"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Method Invocation Expression": "mrb_mc_clear_by_class"}}
+{"cwe": "CWE-354", "cwe_name": "Improper Validation of Integrity Check Value", "template": {"Insert Range Checker": "for (int dim = 0; dim < ndims - 2; dim++)"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Remove Buggy Statement": "buf->Peek"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Conditional Expression": "else if (ch->last_state==GF_ISOM_INVALID_FILE)"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Range Checker": "indices_t.dim_size(0) == values_t.dim_size(0)"}}
+{"cwe": "CWE-20", "cwe_name": "Improper Input Validation", "template": {"Insert Range Checker": "if (idx < 0 || idx >= a_shape_flat(didx))"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Range Checker": "example_labels.size() != num_examples"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Method Invocation Expression": "InitSL_NULL"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Null Pointer Checker": "OP_REQUIRES(ctx, session_state != nullptr, errors::FailedPrecondition(\"GetSessionHandle called on null session state\"))"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Range Checker": "WithRank"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Conditional Expression": "if (pat->data[i][index]>0xff)"}}
+{"cwe": "CWE-369", "cwe_name": "Divide By Zero", "template": {"Insert Range Checker": "TF_LITE_CHECK_DIV_NON_ZERO"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Move Statement": "gf_list_insert"}}
+{"cwe": "CWE-20", "cwe_name": "Improper Input Validation", "template": {"Insert Range Checker": "input.NumElements()"}}
+{"cwe": "CWE-284", "cwe_name": "Improper Access Control", "template": {"Insert Method Invocation Expression": "pgpVerifySelf"}}
+{"cwe": "CWE-362", "cwe_name": "Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')", "template": {"Insert Method Invocation Expression": "EVP_DigestUpdate"}}
+{"cwe": "CWE-399", "cwe_name": "Resource Management Errors", "template": {"Insert Method Invocation Expression": "r = modn.Square(r)"}}
+{"cwe": "CWE-369", "cwe_name": "Divide By Zero", "template": {"Insert Conditional Expression": "if (!delay_den) delay_den = 100;"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Null Pointer Checker": "return GF_ISOM_INVALID_FILE"}}
+{"cwe": "CWE-552", "cwe_name": "Files or Directories Accessible to External Parties", "template": {"Mutate Method Invocation Expression": "saveTo"}}
+{"cwe": "CWE-369", "cwe_name": "Divide By Zero", "template": {"Insert Null Pointer Checker": "input1_data_ptr != nullptr"}}
+{"cwe": "CWE-20", "cwe_name": "Improper Input Validation", "template": {"Insert Conditional Expression": "invalid_data"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Conditional Expression": "pop_n(14)"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Release Resource": "ccp_dm_free(&tag)"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Range Checker": "OP_REQUIRES"}}
+{"cwe": "CWE-252", "cwe_name": "Unchecked Return Value", "template": {"Insert Conditional Expression": "init_get_bits8"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Mutate Variable": "length"}}
+{"cwe": "CWE-20", "cwe_name": "Improper Input Validation", "template": {"Insert Range Checker": "OP_REQUIRES"}}
+{"cwe": "CWE-908", "cwe_name": "Use of Uninitialized Resource", "template": {"Insert Conditional Expression": "TF_LITE_ENSURE"}}
+{"cwe": "CWE-369", "cwe_name": "Divide By Zero", "template": {"Insert Method Invocation Expression": "outer_context->set_output_handle_shapes_and_types"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Range Checker": "return"}}
+{"cwe": "CWE-200", "cwe_name": "Exposure of Sensitive Information to an Unauthorized Actor", "template": {"Insert Range Checker": "if (padlen >= 32)"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Conditional Expression": "OP_REQUIRES"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Missed Statement": "input_has_ellipsis->at(i) = false;"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Variable": "nullptr"}}
+{"cwe": "CWE-369", "cwe_name": "Divide By Zero", "template": {"Insert Range Checker": "if (input.dims() > 0) { OP_REQUIRES(context, input.dim_size(0) != 0, errors::InvalidArgument(\"Invalid input first dimension. Found 0.\"));"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Range Checker": "context"}}
+{"cwe": "CWE-416", "cwe_name": "Use After Free", "template": {"Insert Release Resource": "exit"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Mutate Method Invocation Expression": "PrepareForEncoding"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Release Resource": "o_free"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Conditional Expression": "OP_REQUIRES"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Mutate Conditional Expression": "MqttIsPubRespPacket(packet_type) && MqttIsPubRespPacket(wait_type)"}}
+{"cwe": "CWE-416", "cwe_name": "Use After Free", "template": {"Insert Variable": "native->size"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Null Pointer Checker": "p = NULL"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Range Checker": "OP_REQUIRES"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Range Checker": "in_idx <= -rank"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Range Checker": "TF_LITE_ENSURE"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Range Checker": "error_report"}}
+{"cwe": "CWE-345", "cwe_name": "Insufficient Verification of Data Authenticity", "template": {"Insert Range Checker": "checkpoint::TensorProtoDataSize<T>(sts.data().data()) != shp_s.num_elements()"}}
+{"cwe": "CWE-416", "cwe_name": "Use After Free", "template": {"Insert Conditional Expression": "if"}}
+{"cwe": "CWE-824", "cwe_name": "Access of Uninitialized Pointer", "template": {"Mutate Conditional Expression": "n->output_type(0) != DT_RESOURCE"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Range Checker": "TF_LITE_ENSURE"}}
+{"cwe": "CWE-276", "cwe_name": "Incorrect Default Permissions", "template": {"Remove Buggy Statement": "NULL"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Conditional Expression": "OP_REQUIRES"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Range Checker": "while (needle < to && needle < UT64_MAX - 4)"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Range Checker": "OP_REQUIRES"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Range Checker": "OP_REQUIRES"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Range Checker": "OP_REQUIRES"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Release Resource": "quantum_info=DestroyQuantumInfo(quantum_info)"}}
+{"cwe": "CWE-369", "cwe_name": "Divide By Zero", "template": {"Insert Null Pointer Checker": "if (tensor == nullptr) return nullptr;"}}
+{"cwe": "CWE-200", "cwe_name": "Exposure of Sensitive Information to an Unauthorized Actor", "template": {"Mutate Method Invocation Expression": "crypto_memneq"}}
+{"cwe": "CWE-369", "cwe_name": "Divide By Zero", "template": {"Insert Range Checker": "OP_REQUIRES"}}
+{"cwe": "CWE-369", "cwe_name": "Divide By Zero", "template": {"Insert Conditional Expression": "OP_REQUIRES"}}
+{"cwe": "CWE-416", "cwe_name": "Use After Free", "template": {"Insert Range Checker": "else if (naddr_len > sizeof(naddr))"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Range Checker": "OP_REQUIRES"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Method Invocation Expression": "snprintf"}}
+{"cwe": "CWE-288", "cwe_name": "Authentication Bypass Using an Alternate Path or Channel", "template": {"Insert Method Invocation Expression": "mrb->exc = (struct RObject*)break_new(mrb, RBREAK_TAG_BREAK, proc, v)"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Range Checker": "while (msg_len > 0 && msg->attr_count < attr_max_cnt)"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Method Invocation Expression": "QuantizeMultiplier"}}
+{"cwe": "CWE-416", "cwe_name": "Use After Free", "template": {"Insert Method Invocation Expression": "njs_vmcode_interpreter"}}
+{"cwe": "CWE-415", "cwe_name": "Double Free", "template": {"Insert Variable": "initial_Z"}}
+{"cwe": "CWE-416", "cwe_name": "Use After Free", "template": {"Insert Release Resource": "result.release()"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Mutate Data Type": "uint"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Conditional Expression": "if (len >= 15)"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Range Checker": "pos < 0"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Method Invocation Expression": "check_pos"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Range Checker": "dir >= XFRM_POLICY_MAX"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Range Checker": "if (header->insnum > MP_MAXINS) return MP_LOADER_FAILED;"}}
+{"cwe": "CWE-189", "cwe_name": "Numeric Errors", "template": {"Mutate Data Type": "ushort"}}
+{"cwe": "CWE-401", "cwe_name": "Missing Release of Memory after Effective Lifetime", "template": {"Insert Release Resource": "dev_kfree_skb"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Missed Statement": "cf = cframe_prev(cf)"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Range Checker": "if (off > bin->ne_header->EntryTableLength)"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Range Checker": "hdrsize"}}
+{"cwe": "CWE-362", "cwe_name": "Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')", "template": {"Insert Method Invocation Expression": "snd_pcm_oss_make_ready_locked"}}
+{"cwe": "CWE-415", "cwe_name": "Double Free", "template": {"Insert Release Resource": "mutex_destroy"}}
+{"cwe": "CWE-22", "cwe_name": "Path Traversal", "template": {"Insert Conditional Expression": "g_strcmp0"}}
+{"cwe": "CWE-444", "cwe_name": "Inconsistent Interpretation of HTTP Requests ('HTTP Request Smuggling')", "template": {"Insert Range Checker": "if ( 33 <= (*p) && (*p) <= 126 )"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Null Pointer Checker": "if (gif->frames == NULL) { return GIF_INSUFFICIENT_DATA;"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Variable": "register char *s = scanner->curptr;"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Null Pointer Checker": "if (obj)"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Range Checker": "vcol >= MAXCOL"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Range Checker": "if (instr[y].size >= 4 && instr[y].size < 29)"}}
+{"cwe": "CWE-416", "cwe_name": "Use After Free", "template": {"Insert Release Resource": "vim_free(sub_copy)"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Missed Statement": "status=MagickTrue"}}
+{"cwe": "CWE-264", "cwe_name": "Permissions, Privileges, and Access Controls", "template": {"Insert Conditional Expression": "trusted_config"}}
+{"cwe": "CWE-200", "cwe_name": "Exposure of Sensitive Information to an Unauthorized Actor", "template": {"Insert Release Resource": "usb_put_dev"}}
+{"cwe": "CWE-200", "cwe_name": "Exposure of Sensitive Information to an Unauthorized Actor", "template": {"Insert Memset": "memset"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Mutate Conditional Expression": "from >= end"}}
+{"cwe": "CWE-665", "cwe_name": "Improper Initialization", "template": {"Mutate Literal Expression": "labels_data_count"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Conditional Expression": "&& sp->ts_fidx > 0"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Null Pointer Checker": "bin->segment_entries"}}
+{"cwe": "CWE-401", "cwe_name": "Missing Release of Memory after Effective Lifetime", "template": {"Insert Release Resource": "kfree"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Missed Statement": "len = 2"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Variable": "recursive"}}
+{"cwe": "CWE-212", "cwe_name": "Improper Cross-boundary Removal of Sensitive Data", "template": {"Insert Variable": "xmlformatflags"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Conditional Expression": "else if ((*pp)[*lenp - 1] == NUL)"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Range Checker": "return -1"}}
+{"cwe": "CWE-416", "cwe_name": "Use After Free", "template": {"Mutate Method Invocation Expression": "task_sid_obj"}}
+{"cwe": "CWE-415", "cwe_name": "Double Free", "template": {"Remove Buggy Statement": "kfree(rsi_dev)"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Range Checker": "return -1"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Mutate Method Invocation Expression": "mb_cptr2char_adv"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Range Checker": "cin.file.image_offset < 712"}}
+{"cwe": "CWE-310", "cwe_name": "Cryptographic Issues", "template": {"Insert Variable": "max"}}
+{"cwe": "CWE-416", "cwe_name": "Use After Free", "template": {"Insert Variable": "col"}}
+{"cwe": "CWE-59", "cwe_name": "Improper Link Resolution Before File Access ('Link Following')", "template": {"Insert Conditional Expression": "O_NOFOLLOW"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Null Pointer Checker": "goto out_kfree_e"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Missed Statement": "totlen -= spaces"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Range Checker": "if (offset + 8 > sz)"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Variable": "base"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Conditional Expression": "qFuzzyIsNull(extent)"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Method Invocation Expression": "offset -= (*mb_head_off)(oldp, oldp + offset)"}}
+{"cwe": "CWE-122", "cwe_name": "Heap-based Buffer Overflow", "template": {"Insert Conditional Expression": "utf_ptr2len"}}
+{"cwe": "CWE-119", "cwe_name": "Improper Restriction of Operations within the Bounds of a Memory Buffer", "template": {"Insert Release Resource": "gdFree"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Range Checker": "pskb_may_pull"}}
+{"cwe": "CWE-369", "cwe_name": "Divide By Zero", "template": {"Insert Range Checker": "if (s->tracks == 0)"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Range Checker": "break"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Null Pointer Checker": "rmp->regprog != NULL"}}
+{"cwe": "CWE-704", "cwe_name": "Incorrect Type Conversion or Cast", "template": {"Insert Method Invocation Expression": "SCTP_PAD4"}}
+{"cwe": "CWE-772", "cwe_name": "Missing Release of Resource after Effective Lifetime", "template": {"Insert Range Checker": "ThrowReaderException"}}
+{"cwe": "CWE-119", "cwe_name": "Improper Restriction of Operations within the Bounds of a Memory Buffer", "template": {"Insert Range Checker": "k > Kmax"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Conditional Expression": "if (forward)"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Range Checker": "allocsz"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Range Checker": "allocsz"}}
+{"cwe": "CWE-434", "cwe_name": "Unrestricted Upload of File with Dangerous Type", "template": {"Mutate Conditional Expression": "max_filesize"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Missed Statement": "setobjs2s"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Mutate Data Type": "size_t"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Variable": "len"}}
+{"cwe": "CWE-200", "cwe_name": "Exposure of Sensitive Information to an Unauthorized Actor", "template": {"Insert Range Checker": "check_directory"}}
+{"cwe": "CWE-200", "cwe_name": "Exposure of Sensitive Information to an Unauthorized Actor", "template": {"Insert Method Invocation Expression": "check_directory"}}
+{"cwe": "CWE-200", "cwe_name": "Exposure of Sensitive Information to an Unauthorized Actor", "template": {"Insert Method Invocation Expression": "check_directory"}}
+{"cwe": "CWE-772", "cwe_name": "Missing Release of Resource after Effective Lifetime", "template": {"Insert Release Resource": "kfree_skb"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Range Checker": "if (sw.len > sizeof(self->rpc))"}}
+{"cwe": "CWE-415", "cwe_name": "Double Free", "template": {"Remove Buggy Statement": "free(copy);"}}
+{"cwe": "CWE-617", "cwe_name": "Reachable Assertion", "template": {"Insert Range Checker": "return LDAP_INVALID_SYNTAX"}}
+{"cwe": "CWE-369", "cwe_name": "Divide By Zero", "template": {"Insert Range Checker": "unlikely"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Range Checker": "reason.slen"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Variable": "recurse"}}
+{"cwe": "CWE-94", "cwe_name": "Improper Control of Generation of Code ('Code Injection')", "template": {"Insert Method Invocation Expression": "mkdir"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Conditional Expression": "if (_members->CountUsed() >= MEMBER_MAX_COUNT)"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Range Checker": "len > rb->mask + 1"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Cast Statement": "hdr"}}
+{"cwe": "CWE-617", "cwe_name": "Reachable Assertion", "template": {"Insert Null Pointer Checker": "if (write_images != (Image *) NULL)"}}
+{"cwe": "CWE-193", "cwe_name": "Off-by-one Error", "template": {"Mutate Conditional Expression": ">="}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Mutate Conditional Expression": "neighbor2 != -1"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Range Checker": "facet_num < 0"}}
+{"cwe": "CWE-416", "cwe_name": "Use After Free", "template": {"Insert Missed Statement": "kref_init"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Move Statement": "unregister_netdev"}}
+{"cwe": "CWE-200", "cwe_name": "Exposure of Sensitive Information to an Unauthorized Actor", "template": {"Insert Release Resource": "up_read"}}
+{"cwe": "CWE-94", "cwe_name": "Improper Control of Generation of Code ('Code Injection')", "template": {"Insert Missed Statement": "kiocb->private = NULL;"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Range Checker": "UT32_ADD_OVFCHK"}}
+{"cwe": "CWE-834", "cwe_name": "Excessive Iteration", "template": {"Insert Missed Statement": "remove_inode_hash"}}
+{"cwe": "CWE-269", "cwe_name": "Improper Privilege Management", "template": {"Insert Method Invocation Expression": "mkstemp"}}
+{"cwe": "CWE-401", "cwe_name": "Missing Release of Memory after Effective Lifetime", "template": {"Insert Release Resource": "dp_packet_delete"}}
+{"cwe": "CWE-200", "cwe_name": "Exposure of Sensitive Information to an Unauthorized Actor", "template": {"Insert Null Pointer Checker": "g_return_if_fail (keyid != NULL)"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Conditional Expression": "temp[bn_size - 1] != '\\0"}}
+{"cwe": "CWE-672", "cwe_name": "Operation on a Resource after Expiration or Release", "template": {"Insert Method Invocation Expression": "flushUnderlying"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Mutate Literal Expression": "\" *+\""}}
+{"cwe": "CWE-416", "cwe_name": "Use After Free", "template": {"Mutate Conditional Expression": "maxstackframe > 0"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Conditional Expression": "curwin->w_cursor.col > 0"}}
+{"cwe": "CWE-119", "cwe_name": "Improper Restriction of Operations within the Bounds of a Memory Buffer", "template": {"Insert Range Checker": "remain <= 0"}}
+{"cwe": "CWE-119", "cwe_name": "Improper Restriction of Operations within the Bounds of a Memory Buffer", "template": {"Insert Range Checker": "if (x >= im->sx) { x = im->sx - 1;"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Mutate Literal Expression": "element->attribute_count * 2"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Conditional Expression": "nft_chain_is_bound"}}
+{"cwe": "CWE-924", "cwe_name": "Improper Enforcement of Message Integrity During Transmission in a Communication Channel", "template": {"Insert Release Resource": "free"}}
+{"cwe": "CWE-122", "cwe_name": "Heap-based Buffer Overflow", "template": {"Remove Buggy Statement": "delete"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Mutate Method Invocation Expression": "vim_isalpha"}}
+{"cwe": "CWE-191", "cwe_name": "Integer Underflow (Wrap or Wraparound)", "template": {"Insert Range Checker": "vertexIndex>=0"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Missed Statement": "iinfo->i_lenAlloc = inode->i_size"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Mutate Method Invocation Expression": "MagickMax"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Mutate Control Statement": "for"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Conditional Expression": "flags"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Release Resource": "cmdopts_destroy"}}
+{"cwe": "CWE-120", "cwe_name": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')", "template": {"Mutate Method Invocation Expression": "strscpy"}}
+{"cwe": "CWE-120", "cwe_name": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')", "template": {"Mutate Method Invocation Expression": "strscpy"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Method Invocation Expression": "sq_reservestack"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Mutate Literal Expression": "128"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Conditional Expression": "if (abbrev->count)"}}
+{"cwe": "CWE-362", "cwe_name": "Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')", "template": {"Insert Method Invocation Expression": "lock_guard"}}
+{"cwe": "CWE-362", "cwe_name": "Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')", "template": {"Insert Range Checker": "strncpy"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Range Checker": "colnr_T col = col_arg < 0 ? 0 : col_arg;"}}
+{"cwe": "CWE-284", "cwe_name": "Improper Access Control", "template": {"Insert Missed Statement": "buf->flags = 0"}}
+{"cwe": "CWE-284", "cwe_name": "Improper Access Control", "template": {"Insert Missed Statement": "buf->flags = 0"}}
+{"cwe": "CWE-200", "cwe_name": "Exposure of Sensitive Information to an Unauthorized Actor", "template": {"Insert Missed Statement": "base64_str"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Mutate Variable": "cache->n_maps"}}
+{"cwe": "CWE-200", "cwe_name": "Exposure of Sensitive Information to an Unauthorized Actor", "template": {"Insert Method Invocation Expression": "this_cpu_add"}}
+{"cwe": "CWE-200", "cwe_name": "Exposure of Sensitive Information to an Unauthorized Actor", "template": {"Insert Method Invocation Expression": "this_cpu_add"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Memset": "memset"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Null Pointer Checker": "+\t\t*num_pols = 0"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Mutate Data Type": "%p"}}
+{"cwe": "CWE-200", "cwe_name": "Exposure of Sensitive Information to an Unauthorized Actor", "template": {"Insert Method Invocation Expression": "sanitize_paths"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Missed Statement": "idx + 1"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Missed Statement": "tp[len] = NUL"}}
+{"cwe": "CWE-399", "cwe_name": "Resource Management Errors", "template": {"Mutate Literal Expression": "escaped(tok->args[1])"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Null Pointer Checker": "else if (s == NULL)"}}
+{"cwe": "CWE-190", "cwe_name": "Integer Overflow or Wraparound", "template": {"Insert Range Checker": "strlen"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Variable": "save_new_cmdpos"}}
+{"cwe": "CWE-415", "cwe_name": "Double Free", "template": {"Mutate Method Invocation Expression": "maps"}}
+{"cwe": "CWE-416", "cwe_name": "Use After Free", "template": {"Insert Missed Statement": "get_gc"}}
+{"cwe": "CWE-416", "cwe_name": "Use After Free", "template": {"Insert Release Resource": "free"}}
+{"cwe": "CWE-416", "cwe_name": "Use After Free", "template": {"Insert Null Pointer Checker": "buf_valid"}}
+{"cwe": "CWE-416", "cwe_name": "Use After Free", "template": {"Insert Null Pointer Checker": "mixer"}}
+{"cwe": "CWE-119", "cwe_name": "Improper Restriction of Operations within the Bounds of a Memory Buffer", "template": {"Insert Cast Statement": "(*mdev_types)"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Null Pointer Checker": "if (TabPageIdxs != NULL)"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Null Pointer Checker": "if (prog)"}}
+{"cwe": "CWE-190", "cwe_name": "Integer Overflow or Wraparound", "template": {"Insert Range Checker": "s > INT32_MAX"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Null Pointer Checker": "trans_pcie->rba.alloc_wq"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Method Invocation Expression": "luaK_exp2anyregup"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Range Checker": "CDF_ELEMENT_LIMIT"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Range Checker": "unlikely(size > MAX_RW_COUNT)"}}
+{"cwe": "CWE-362", "cwe_name": "Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')", "template": {"Mutate Conditional Expression": "if ((next_offset + req_size) > MAX_ACTIONS_BUFSIZE)"}}
+{"cwe": "CWE-400", "cwe_name": "Uncontrolled Resource Consumption", "template": {"Mutate Data Type": "SBuf"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Range Checker": "cin.file.image_offset < 712"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Null Pointer Checker": "return FAIL"}}
+{"cwe": "CWE-617", "cwe_name": "Reachable Assertion", "template": {"Insert Method Invocation Expression": "getCollectionDescription"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Release Resource": "QLIST_REMOVE_RCU"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Range Checker": "% sizeof(s->edid_blob)"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Method Invocation Expression": "validate_msg_fds"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Method Invocation Expression": "validate_msg_fds"}}
+{"cwe": "CWE-416", "cwe_name": "Use After Free", "template": {"Insert Variable": "arglist_locked"}}
+{"cwe": "CWE-119", "cwe_name": "Improper Restriction of Operations within the Bounds of a Memory Buffer", "template": {"Insert Range Checker": "for (ii = 0; ii < num_tiles; ii++)"}}
+{"cwe": "CWE-120", "cwe_name": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')", "template": {"Insert Memset": "memset"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Method Invocation Expression": "iov_iter_reexpand"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Conditional Expression": "if (*that != NUL)"}}
+{"cwe": "CWE-415", "cwe_name": "Double Free", "template": {"Remove Buggy Statement": "dev_kfree_skb(skb)"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Variable": "is_ambig"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Range Checker": "size < 32"}}
+{"cwe": "CWE-401", "cwe_name": "Missing Release of Memory after Effective Lifetime", "template": {"Insert Release Resource": "kfree"}}
+{"cwe": "CWE-415", "cwe_name": "Double Free", "template": {"Remove Buggy Statement": "kfree(vch)"}}
+{"cwe": "CWE-416", "cwe_name": "Use After Free", "template": {"Move Statement": "ax->tty = NULL"}}
+{"cwe": "CWE-401", "cwe_name": "Missing Release of Memory after Effective Lifetime", "template": {"Insert Release Resource": "DestroyImageList"}}
+{"cwe": "CWE-835", "cwe_name": "Loop with Unreachable Exit Condition ('Infinite Loop')", "template": {"Remove Buggy Statement": "start_position=TellBlob(image)-2;"}}
+{"cwe": "CWE-22", "cwe_name": "Path Traversal", "template": {"Insert Method Invocation Expression": "check_name"}}
+{"cwe": "CWE-22", "cwe_name": "Path Traversal", "template": {"Insert Method Invocation Expression": "check_name"}}
+{"cwe": "CWE-22", "cwe_name": "Path Traversal", "template": {"Insert Method Invocation Expression": "check_name"}}
+{"cwe": "CWE-863", "cwe_name": "Incorrect Authorization", "template": {"Insert Conditional Expression": "if"}}
+{"cwe": "CWE-191", "cwe_name": "Integer Underflow (Wrap or Wraparound)", "template": {"Mutate Variable": "client->req_len"}}
+{"cwe": "CWE-835", "cwe_name": "Loop with Unreachable Exit Condition ('Infinite Loop')", "template": {"Insert Method Invocation Expression": "qemu_receive_packet"}}
+{"cwe": "CWE-193", "cwe_name": "Off-by-one Error", "template": {"Mutate Conditional Expression": ">="}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Missed Statement": "cut"}}
+{"cwe": "CWE-200", "cwe_name": "Exposure of Sensitive Information to an Unauthorized Actor", "template": {"Insert Conditional Expression": "&& len < MAXPATHL - 1"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Null Pointer Checker": "ipimap"}}
+{"cwe": "CWE-416", "cwe_name": "Use After Free", "template": {"Insert Conditional Expression": "if (breakpoint != NULL && lines_ga.ga_len > current_line)"}}
+{"cwe": "CWE-20", "cwe_name": "Improper Input Validation", "template": {"Insert Method Invocation Expression": "fstat"}}
+{"cwe": "CWE-22", "cwe_name": "Path Traversal", "template": {"Insert Null Pointer Checker": "relative_path"}}
+{"cwe": "CWE-22", "cwe_name": "Path Traversal", "template": {"Insert Null Pointer Checker": "base_name != NULL"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Variable": "len"}}
+{"cwe": "CWE-416", "cwe_name": "Use After Free", "template": {"Move Statement": "usb_put_dev"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Range Checker": "if (label_length > entry_length) { debug_print(\"Label length too long: %zu\\n\", label_length); return MOBI_DATA_CORRUPT;"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Range Checker": "if (total < total_slide_infos)"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Range Checker": "if ( allocate > (long long) io.size() )"}}
+{"cwe": "CWE-17", "cwe_name": "Code", "template": {"Remove Buggy Statement": "efree(mfn)"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Range Checker": "hdr->length < sizeof(struct capability_mp_data)"}}
+{"cwe": "CWE-189", "cwe_name": "Numeric Errors", "template": {"Insert Range Checker": "RETURN (FALSE)"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Range Checker": "len < state->head->extra_max"}}
+{"cwe": "CWE-122", "cwe_name": "Heap-based Buffer Overflow", "template": {"Insert Missed Statement": "trigger_modechanged"}}
+{"cwe": "CWE-189", "cwe_name": "Numeric Errors", "template": {"Insert Variable": "cli_malloc(len+1)"}}
+{"cwe": "CWE-416", "cwe_name": "Use After Free", "template": {"Insert Method Invocation Expression": "reg_getline"}}
+{"cwe": "CWE-119", "cwe_name": "Improper Restriction of Operations within the Bounds of a Memory Buffer", "template": {"Mutate Literal Expression": "end_name - dirname - 1"}}
+{"cwe": "CWE-120", "cwe_name": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')", "template": {"Insert Range Checker": "if"}}
+{"cwe": "CWE-20", "cwe_name": "Improper Input Validation", "template": {"Insert Range Checker": "sizeof(bv) - 1"}}
+{"cwe": "CWE-20", "cwe_name": "Improper Input Validation", "template": {"Insert Range Checker": "if(tccp->maxrlvls > JPC_MAXRLVLS)"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Range Checker": "break"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Mutate Literal Expression": "4*((image->depth+7)/8)"}}
+{"cwe": "CWE-269", "cwe_name": "Improper Privilege Management", "template": {"Insert Method Invocation Expression": "offload_action"}}
+{"cwe": "CWE-668", "cwe_name": "Exposure of Resource to Wrong Sphere", "template": {"Insert Conditional Expression": "return XML_ERROR_SYNTAX"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Mutate Variable": "dec->cdef->data.cdef.numchans"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Range Checker": "return"}}
+{"cwe": "CWE-119", "cwe_name": "Improper Restriction of Operations within the Bounds of a Memory Buffer", "template": {"Insert Range Checker": "debug_print"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Conditional Expression": "#if HAVE_DECL_SETRESUID"}}
+{"cwe": "CWE-119", "cwe_name": "Improper Restriction of Operations within the Bounds of a Memory Buffer", "template": {"Insert Range Checker": "len"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Insert Range Checker": "u < HTTP_HDR_FIRST"}}
+{"cwe": "CWE-416", "cwe_name": "Use After Free", "template": {"Insert Null Pointer Checker": "q = NULL"}}
+{"cwe": "CWE-416", "cwe_name": "Use After Free", "template": {"Insert Release Resource": "FreeWild"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Cast Statement": "(u64)"}}
+{"cwe": "CWE-191", "cwe_name": "Integer Underflow (Wrap or Wraparound)", "template": {"Insert Range Checker": "value.slen"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Null Pointer Checker": "pcs->status.buffer = NULL"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Null Pointer Checker": "if (new_str)"}}
+{"cwe": "CWE-190", "cwe_name": "Integer Overflow or Wraparound", "template": {"Insert Range Checker": "if(pThis->iOctetsRemain <= 200000000)"}}
+{"cwe": "CWE-416", "cwe_name": "Use After Free", "template": {"Insert Null Pointer Checker": "qfl->qf_start"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Method Invocation Expression": "utils::replace_all"}}
+{"cwe": "CWE-835", "cwe_name": "Loop with Unreachable Exit Condition ('Infinite Loop')", "template": {"Insert Method Invocation Expression": "qemu_receive_packet"}}
+{"cwe": "CWE-732", "cwe_name": "Incorrect Permission Assignment for Critical Resource", "template": {"Insert Missed Statement": "read_old_value"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Release Resource": "del_timer_sync"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Method Invocation Expression": "is_in_cp950_pua"}}
+{"cwe": "CWE-416", "cwe_name": "Use After Free", "template": {"Move Statement": "nci_unregister_device"}}
+{"cwe": "CWE-754", "cwe_name": "Improper Check for Unusual or Exceptional Conditions", "template": {"Insert Conditional Expression": "task_completed_or_cancelled"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Range Checker": "badlen"}}
+{"cwe": "CWE-416", "cwe_name": "Use After Free", "template": {"Insert Conditional Expression": "if (param->type != fs_value_is_string)"}}
+{"cwe": "CWE-119", "cwe_name": "Improper Restriction of Operations within the Bounds of a Memory Buffer", "template": {"Insert Memset": "MemorySet(object, 0, sizeof(*object))"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Range Checker": "hdr.nSubrects > RFB_BUFFER_SIZE / (4 + (BPP / 8))"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Range Checker": "return LZW_BAD_CODE"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Null Pointer Checker": "!os_desc_cfg->interface[interface]"}}
+{"cwe": "CWE-20", "cwe_name": "Improper Input Validation", "template": {"Insert Range Checker": "unlikely(size < sizeof(struct tipc_aead_key) + TIPC_AEAD_KEYLEN_MIN)"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Range Checker": "buf_offset + offset + 8 > sz"}}
+{"cwe": "CWE-79", "cwe_name": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')", "template": {"Insert Conditional Expression": "str_has_cntrl"}}
+{"cwe": "CWE-362", "cwe_name": "Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')", "template": {"Insert Method Invocation Expression": "mutex_lock"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Range Checker": "if (be32_to_cpu(args.nargs) >= ARRAY_SIZE(args.args))"}}
+{"cwe": "CWE-20", "cwe_name": "Improper Input Validation", "template": {"Insert Range Checker": "if (window_posn + match_length > qtm->window_size)"}}
+{"cwe": "CWE-119", "cwe_name": "Improper Restriction of Operations within the Bounds of a Memory Buffer", "template": {"Insert Range Checker": "if((SIZE_MAX - add_len) < target->len || (SIZE_MAX - add_len - 1) < target->len)"}}
+{"cwe": "CWE-401", "cwe_name": "Missing Release of Memory after Effective Lifetime", "template": {"Insert Release Resource": "kvfree"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Null Pointer Checker": "buf == NULL"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Range Checker": "if ((ruleChars.length + 1) > SEQPATTERNSIZE)"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Remove Buggy Statement": "gst_object_unref"}}
+{"cwe": "CWE-269", "cwe_name": "Improper Privilege Management", "template": {"Insert Conditional Expression": "if ((of->file->f_cred->user_ns != &init_user_ns) || !capable(CAP_SYS_ADMIN))"}}
+{"cwe": "CWE-617", "cwe_name": "Reachable Assertion", "template": {"Insert Conditional Expression": "css"}}
+{"cwe": "CWE-703", "cwe_name": "Improper Check or Handling of Exceptional Conditions", "template": {"Mutate Variable": "UA_ConnectionConfig_default.sendBufferSize"}}
+{"cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "template": {"Insert Conditional Expression": "Beyond start/end of buffer"}}
+{"cwe": "CWE-835", "cwe_name": "Loop with Unreachable Exit Condition ('Infinite Loop')", "template": {"Insert Method Invocation Expression": "qemu_receive_packet"}}
+{"cwe": "CWE-120", "cwe_name": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')", "template": {"Insert Conditional Expression": "mutate_ok"}}
+{"cwe": "CWE-20", "cwe_name": "Improper Input Validation", "template": {"Insert Conditional Expression": "new_rlim.rlim_cur == 0"}}
+{"cwe": "CWE-189", "cwe_name": "Numeric Errors", "template": {"Insert Range Checker": "authkey->sca_keylength > optlen - sizeof(struct sctp_authkey)"}}
+{"cwe": "CWE-20", "cwe_name": "Improper Input Validation", "template": {"Mutate Literal Expression": "chunk"}}
+{"cwe": "CWE-119", "cwe_name": "Improper Restriction of Operations within the Bounds of a Memory Buffer", "template": {"Insert Range Checker": "be16_to_cpu(tmp.thread.nodeName.length) > 255"}}
+{"cwe": "CWE-20", "cwe_name": "Improper Input Validation", "template": {"Insert Null Pointer Checker": "IS_ERR"}}
+{"cwe": "CWE-189", "cwe_name": "Numeric Errors", "template": {"Insert Conditional Expression": "e = o <= insize ? insize - o : 0"}}
+{"cwe": "CWE-119", "cwe_name": "Improper Restriction of Operations within the Bounds of a Memory Buffer", "template": {"Insert Range Checker": "break"}}
+{"cwe": "CWE-310", "cwe_name": "Cryptographic Issues", "template": {"Insert Method Invocation Expression": "cnd_add_n"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Null Pointer Checker": "FATAL_ERROR"}}
+{"cwe": "CWE-20", "cwe_name": "Improper Input Validation", "template": {"Insert Null Pointer Checker": "goto exit"}}
+{"cwe": "CWE-399", "cwe_name": "Resource Management Errors", "template": {"Insert Release Resource": "return -1"}}
+{"cwe": "CWE-362", "cwe_name": "Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')", "template": {"Insert Method Invocation Expression": "ssl_session_dup"}}
+{"cwe": "CWE-275", "cwe_name": "Permission Issues", "template": {"Mutate Literal Expression": "0777"}}
+{"cwe": "CWE-20", "cwe_name": "Improper Input Validation", "template": {"Insert Conditional Expression": "username"}}
+{"cwe": "CWE-770", "cwe_name": "Allocation of Resources Without Limits or Throttling", "template": {"Insert Conditional Expression": "if( isMapped(tif) && datasize > tif->tif_size )"}}
+{"cwe": "CWE-327", "cwe_name": "Use of a Broken or Risky Cryptographic Algorithm", "template": {"Insert Range Checker": "CHACHA20_POLY1305_MAX_IVLEN"}}
+{"cwe": "CWE-835", "cwe_name": "Loop with Unreachable Exit Condition ('Infinite Loop')", "template": {"Insert Conditional Expression": "nch == 0"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Range Checker": "len == 0"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Null Pointer Checker": "test_GENERAL_NAME_cmp"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Null Pointer Checker": "params->base->data == NULL"}}
+{"cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "template": {"Insert Missed Statement": "for"}}
+{"cwe": "CWE-400", "cwe_name": "Uncontrolled Resource Consumption", "template": {"Insert Null Pointer Checker": "!file"}}
+{"cwe": "CWE-416", "cwe_name": "Use After Free", "template": {"Mutate Return Statement": "DBUG_RETURN(true)"}}
+{"cwe": "CWE-617", "cwe_name": "Reachable Assertion", "template": {"Insert Method Invocation Expression": "walk"}}
+{"cwe": "CWE-416", "cwe_name": "Use After Free", "template": {"Insert Range Checker": "dl->length < so_ext_len ||"}}
+{"cwe": "CWE-617", "cwe_name": "Reachable Assertion", "template": {"Insert Conditional Expression": "join->implicit_grouping"}}
+{"cwe": "CWE-79", "cwe_name": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')", "template": {"Insert Method Invocation Expression": "escapeHTML"}}
+{"cwe": "CWE-59", "cwe_name": "Improper Link Resolution Before File Access ('Link Following')", "template": {"Insert Conditional Expression": "followSymlinks"}}
+{"cwe": "CWE-120", "cwe_name": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')", "template": {"Insert Range Checker": "%100s"}}
+{"cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "template": {"Insert Range Checker": "validated_offset"}}

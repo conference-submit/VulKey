@@ -1,0 +1,41 @@
+{"INPUT": "// fix_start\n    parser.parseArray(componentType, array, fieldName);\n// fix_end\n"}
+{"INPUT": "// fix_start\n        try {\n            sfactory.setFeature(\"http://xml.org/sax/features/external-general-entities\", false);\n        } catch (SAXException e) {\n            LOG.warn(\"SAXParser doesn't support the feature {} with value {}, due to {}.\", new Object[]{\"http://xml.org/sax/features/external-general-entities\", false, e});                \n        }\n        sfactory.setNamespaceAware(true);\n// fix_end\n"}
+{"INPUT": "// fix_start\n// fix_end\n"}
+{"INPUT": "// fix_start\n    String targetDirPath = targetDirectory.getCanonicalPath() + File.separatorChar;\n// fix_end\n"}
+{"INPUT": "// fix_start\n        for (long i = 0; i < this.rcount; i++) {\n// fix_end\n"}
+{"INPUT": "// fix_start\n            buf.limit(0);\n            throw new IOException(\"Truncated ZIP file\");\n// fix_end\n"}
+{"INPUT": "// fix_start\n        } else if (res.isUnderflow() || res.isError()) {\n            break;\n        }\n// fix_end\n"}
+{"INPUT": "// fix_start\n    if (repository != null) {\n        if (repository.isDirectory()) {\n            if (repository.getPath().contains(\"\\0\")) {\n                throw new IOException(format(\"The repository [%s] contains a null character\", repository.getPath()));\n            }\n        } else {\n            throw new IOException(format(\"The repository [%s] is not a directory\", repository.getAbsolutePath()));\n        }\n    }\n// fix_end\n"}
+{"INPUT": "// fix_start\n    if (v < vt) {\n// fix_end\n"}
+{"INPUT": "// fix_start\n    return \"Wiki.jsp\";\n// fix_end\n"}
+{"INPUT": "// fix_start\n        currentAccessPermission.setReadOnly();\n        setCurrentAccessPermission(currentAccessPermission);\n// fix_end\n"}
+{"INPUT": "// fix_start\n        COSBase base = getObject(i);\n        retval[i] = base instanceof COSNumber ? ((COSNumber) base).floatValue() : 0;\n// fix_end\n"}
+{"INPUT": "// fix_start\n    contextPath = normalize(decodeRequestString(request, contextPath));\n    if (\"/\".equals(contextPath)) {\n        contextPath = \"\";\n    }\n    return contextPath;\n// fix_end\n"}
+{"INPUT": "// fix_start\n    return source == null ? null : Encode.forJavaScript(source).replace(\"\\\\-\", \"\\\\u002D\");\n// fix_end\n"}
+{"INPUT": "// fix_start\n    factory.setNamespaceAware(true);\n    try {\n        factory.setFeature(\"http://apache.org/xml/features/nonvalidating/load-external-dtd\", false);\n        factory.setFeature(\"http://xml.org/sax/features/external-parameter-entities\", false);\n        factory.setFeature(\"http://xml.org/sax/features/external-general-entities\", false);\n    } catch (Exception e) {\n        LOGGER.error(\"SAX parser configuration error: \" + e.getMessage(), e);\n    }\n// fix_end\n"}
+{"INPUT": "// fix_start\n        String unescapedURL = URLDecoder.decode(url, StandardCharsets.UTF_8.name());\n        unescapedURL = StringEscapeUtils.unescapeXml(unescapedURL);\n        String encodedUrl = unescapedURL.replaceAll(\"\\\"\", \"%22\").replaceAll(\"'\", \"%27\").replaceAll(\">\", \"%3E\").replaceAll(\"<\", \"%3C\").replaceAll(\"`\", \"%60\").replaceAll(\" \", \"%20\");\n        int qMarkIx = encodedUrl.indexOf('?');\n        if (qMarkIx > 0) {\n            encodedUrl = encodedUrl.substring(0, qMarkIx) + encodedUrl.substring(qMarkIx).replaceAll(\":\", \"%3A\");\n        }\n        encodedUrl = mangleNamespaces(encodedUrl);\n        if (xssFilter.isValidHref(encodedUrl)) {\n            return encodedUrl;\n// fix_end\n"}
+{"INPUT": "// fix_start\n                \")(((\\\\/{0,1}([a-z0-9$_\\\\.\\\\+!\\\\*\\\\'\\\\(\\\\),;:@&=-]|%[0-9a-f]{2})*)*\" +\n// fix_end\n"}
+{"INPUT": "// fix_start\n    if (!(value.getClass().equals(String.class)) || !Pattern.compile(getUrlRegex(), Pattern.CASE_INSENSITIVE).matcher(String.valueOf(value).trim()).matches()) {\n// fix_end\n"}
+{"INPUT": "// fix_start\n        return node.isEvalChain(ognlContext) || node.isSequence(ognlContext);\n// fix_end\n"}
+{"INPUT": "// fix_start\n// fix_end\n"}
+{"INPUT": "// fix_start\n    if (!scimUserFromDb.getEmails().containsAll(scimUserFromRequest.getEmails())) {\n        return false;\n    }\n    if (!scimUserFromDb.getUserName().equals(scimUserFromRequest.getUserName())) {\n// fix_end\n"}
+{"INPUT": "// fix_start\n    final File f = FileUtils.resolveFile(dir, entryName);\n    String canonicalDirPath = dir.getCanonicalPath();\n    String canonicalDestPath = f.getCanonicalPath();\n    if (!canonicalDestPath.startsWith(canonicalDirPath))\n    {\n        throw new ArchiverException(\"Entry is outside of the target directory(\" + entryName + \")\");\n    }\n// fix_end\n"}
+{"INPUT": "// fix_start\n    File outFile = new File(destDir, entry.getName());\n    if (! outFile.getCanonicalFile().toPath().startsWith(destDir.toPath())) {\n        throw new IOException(\"Zip entry outside destination directory: \" + entry.getName());\n    }\n// fix_end\n"}
+{"INPUT": "// fix_start\n    if (immune != null && containsCharacter(c.charValue(), immune))\n        return cStr;\n    if(UNENCODED_SET.contains(c))\n// fix_end\n"}
+{"INPUT": "// fix_start\n        xmlIn = XMLInputFactory.newInstance();\n        xmlIn.setProperty(XMLInputFactory.IS_SUPPORTING_EXTERNAL_ENTITIES, Boolean.FALSE);\n// fix_end\n"}
+{"INPUT": "// fix_start\n        xmlIn.setProperty(XMLInputFactory.IS_SUPPORTING_EXTERNAL_ENTITIES, Boolean.FALSE);\n        xmlIn.setProperty(XMLInputFactory.SUPPORT_DTD, Boolean.FALSE);\n// fix_end\n"}
+{"INPUT": "// fix_start\n        writeDirectly(htmlEncodeButNotSpace(remoteAddr));\n// fix_end\n"}
+{"INPUT": "// fix_start\n    c.set(field,Math.min(i-offset, c.getActualMaximum(field)));\n// fix_end\n"}
+{"INPUT": "// fix_start\n    denyTypes(new Class[] { void.class, Void.class });\n// fix_end\n"}
+{"INPUT": "// fix_start\n                if (f.valueOf(cal) != next) {\n                    f.rollUp(cal, 1);\n                    f.setTo(cal,f.first(this));\n                    continue OUTER;\n                }\n// fix_end\n"}
+{"INPUT": "// fix_start\n    item.checkPermission(Item.BUILD);\n    if (step.getWait() && !(item instanceof Job)) {\n// fix_end\n"}
+{"INPUT": "// fix_start\n                t.emitTagPending();\n                t.transition(Data);\n// fix_end\n"}
+{"INPUT": "// fix_start\n        documentBuilderFactory.setFeature(\"http://apache.org/xml/features/disallow-doctype-decl\", true);\n        DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();\n// fix_end\n"}
+{"INPUT": "// fix_start\n        ctx.lookup(principal.toString());\n        return ctx;\n// fix_end\n"}
+{"INPUT": "// fix_start\n    factory.setProperty(XMLInputFactory.SUPPORT_DTD, false);\n    return factory.createXMLStreamReader(wrapPrefixRemovingInputStream(inputStream));\n// fix_end\n"}
+{"INPUT": "// fix_start\n    File file = new File(dir, name);\n    if (!file.toPath().normalize().startsWith(dir.toPath().normalize())) {\n        throw new IllegalArgumentException(\"Zip archives with files escaping their root directory are not allowed.\");\n    }\n// fix_end\n"}
+{"INPUT": "// fix_start\n        case '\\n':\n// fix_end\n"}
+{"INPUT": "// fix_start\n        if (base.size() > 1000) {\n            throw new IllegalArgumentException(PARSE_DEPTH_EXCEEDED);\n        }\n        current = new PropertyPath(source, type, base);\n// fix_end\n"}
+{"INPUT": "// fix_start\n    return evaluate(verifyPath(entityType).<Class<?>> map(it -> it.getType()).orElse(entityType));\n// fix_end\n"}
+{"INPUT": "// fix_start\n    if (encPass == null) {\n        return false;\n    }\n    String pass1 = encPass + \"\";\n// fix_end\n"}
+{"INPUT": "// fix_start\n    rnd.nextBytes(new byte[1]);\n// fix_end\n"}

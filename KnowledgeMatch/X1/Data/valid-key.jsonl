@@ -1,0 +1,136 @@
+{"cwe": "CWE-59", "cwe_name": "Improper Link Resolution Before File Access ('Link Following')", "template": {"Mutate Variable": "sslContextFactory"}}
+{"cwe": "CWE-59", "cwe_name": "Improper Link Resolution Before File Access ('Link Following')", "template": {"Insert Method Invocation Expression": "addSuppressed"}}
+{"cwe": "NVD-CWE-noinfo", "cwe_name": "", "template": {"Insert Conditional Expression": "User.ALLOW_USER_CREATION_VIA_URL && hasPermission(Jenkins.ADMINISTER)"}}
+{"cwe": "CWE-264", "cwe_name": "Permissions, Privileges, and Access Controls", "template": {"Insert Method Invocation Expression": "getPooledFactory"}}
+{"cwe": "CWE-264", "cwe_name": "Permissions, Privileges, and Access Controls", "template": {"Insert Method Invocation Expression": "readResolve"}}
+{"cwe": "CWE-611", "cwe_name": "Improper Restriction of XML External Entity Reference ('XXE')", "template": {"Insert Feature Configuration": "dbf.setValidating(false)"}}
+{"cwe": "CWE-22", "cwe_name": "Path Traversal", "template": {"Insert Method Invocation Expression": "disableParse"}}
+{"cwe": "CWE-203", "cwe_name": "Information Exposure Through Discrepancy", "template": {"Mutate Method Invocation Expression": "stringEquals"}}
+{"cwe": "CWE-203", "cwe_name": "Information Exposure Through Discrepancy", "template": {"Insert Conditional Expression": "stringEquals"}}
+{"cwe": "CWE-264", "cwe_name": "Permissions, Privileges, and Access Controls", "template": {"Mutate Method Invocation Expression": "RUN_SCRIPTS"}}
+{"cwe": "NVD-CWE-Other", "cwe_name": "Other", "template": {"Mutate Method Invocation Expression": "getItem"}}
+{"cwe": "CWE-399", "cwe_name": "Resource Management Errors", "template": {"Insert Method Invocation Expression": "socket.setSoTimeout"}}
+{"cwe": "CWE-200", "cwe_name": "Exposure of Sensitive Information to an Unauthorized Actor", "template": {"Remove Buggy Statement": "authorizationStrategy"}}
+{"cwe": "CWE-862", "cwe_name": "Missing Authorization", "template": {"Insert Conditional Expression": "authorizationCheck"}}
+{"cwe": "CWE-22", "cwe_name": "Path Traversal", "template": {"Insert Conditional Expression": "if"}}
+{"cwe": "CWE-444", "cwe_name": "Inconsistent Interpretation of HTTP Requests ('HTTP Request Smuggling')", "template": {"Insert Conditional Expression": "contentDelimitation"}}
+{"cwe": "CWE-74", "cwe_name": "Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')", "template": {"Insert Conditional Expression": "expressionMatches"}}
+{"cwe": "CWE-74", "cwe_name": "Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')", "template": {"Insert Method Invocation Expression": "parse"}}
+{"cwe": "CWE-502", "cwe_name": "Deserialization of Untrusted Data", "template": {"Insert Feature Configuration": "allowAnyType"}}
+{"cwe": "CWE-502", "cwe_name": "Deserialization of Untrusted Data", "template": {"Insert Method Invocation Expression": "_validateSubType"}}
+{"cwe": "CWE-20", "cwe_name": "Improper Input Validation", "template": {"Insert Method Invocation Expression": "setNewBuiltinClassResolver"}}
+{"cwe": "CWE-200", "cwe_name": "Exposure of Sensitive Information to an Unauthorized Actor", "template": {"Mutate Conditional Expression": "!message.contains(\"DOCTYPE\")"}}
+{"cwe": "CWE-755", "cwe_name": "Improper Handling of Exceptional Conditions", "template": {"Insert Conditional Expression": "return"}}
+{"cwe": "CWE-502", "cwe_name": "Deserialization of Untrusted Data", "template": {"Insert Conditional Expression": "whitelistEnabled"}}
+{"cwe": "NVD-CWE-Other", "cwe_name": "Other", "template": {"Insert Null Pointer Checker": "if (webDigesters[0] == null)"}}
+{"cwe": "CWE-306", "cwe_name": "", "template": {"Insert Release Resource": "registry.rebind"}}
+{"cwe": "CWE-502", "cwe_name": "Deserialization of Untrusted Data", "template": {"Mutate Method Invocation Expression": "SERIALIZER_MESSAGE_CONVERTER.fromMessage"}}
+{"cwe": "CWE-264", "cwe_name": "Permissions, Privileges, and Access Controls", "template": {"Mutate Method Invocation Expression": "getParent().getLoader().getClassLoader().loadClass"}}
+{"cwe": "CWE-611", "cwe_name": "Improper Restriction of XML External Entity Reference ('XXE')", "template": {"Insert Conditional Expression": "camelContext != null"}}
+{"cwe": "CWE-287", "cwe_name": "Improper Authentication", "template": {"Insert Conditional Expression": "if (!cores.getZkController().getZkStateReader().getClusterState().getLiveNodes().contains(nodename)) return null;"}}
+{"cwe": "CWE-119", "cwe_name": "Improper Restriction of Operations within the Bounds of a Memory Buffer", "template": {"Insert Method Invocation Expression": "ByteBuffer.allocate"}}
+{"cwe": "CWE-22", "cwe_name": "Path Traversal", "template": {"Insert Conditional Expression": "normalized.equals(\"/..\")"}}
+{"cwe": "NVD-CWE-noinfo", "cwe_name": "", "template": {"Insert Conditional Expression": "throw"}}
+{"cwe": "NVD-CWE-Other", "cwe_name": "Other", "template": {"Insert Feature Configuration": "JwtProxyProvisionerFactory"}}
+{"cwe": "CWE-20", "cwe_name": "Improper Input Validation", "template": {"Remove Buggy Statement": "onControlCommand"}}
+{"cwe": "CWE-399", "cwe_name": "Resource Management Errors", "template": {"Insert Release Resource": "closeInput"}}
+{"cwe": "CWE-399", "cwe_name": "Resource Management Errors", "template": {"Insert Method Invocation Expression": "getBackChannelConduit"}}
+{"cwe": "NVD-CWE-noinfo", "cwe_name": "", "template": {"Insert Feature Configuration": "TokenPolicy"}}
+{"cwe": "CWE-295", "cwe_name": "Improper Certificate Validation", "template": {"Insert Null Pointer Checker": "pins == null"}}
+{"cwe": "CWE-352", "cwe_name": "Cross-Site Request Forgery (CSRF)", "template": {"Insert Conditional Expression": "if (!state.equals(cachedState))"}}
+{"cwe": "CWE-240", "cwe_name": "", "template": {"Insert Method Invocation Expression": "req.getSubmittedForm"}}
+{"cwe": "CWE-295", "cwe_name": "Improper Certificate Validation", "template": {"Remove Buggy Statement": "return"}}
+{"cwe": "CWE-22", "cwe_name": "Path Traversal", "template": {"Insert Method Invocation Expression": "Paths.get(fileName).getFileName().toString()"}}
+{"cwe": "CWE-306", "cwe_name": "", "template": {"Insert Method Invocation Expression": "createHttpsUrlConnection"}}
+{"cwe": "CWE-306", "cwe_name": "", "template": {"Insert Release Resource": "conn.disconnect()"}}
+{"cwe": "CWE-611", "cwe_name": "Improper Restriction of XML External Entity Reference ('XXE')", "template": {"Mutate Class Instance Creation": "SecureDigester"}}
+{"cwe": "NVD-CWE-noinfo", "cwe_name": "", "template": {"Insert Null Pointer Checker": "field"}}
+{"cwe": "CWE-384", "cwe_name": "", "template": {"Insert Release Resource": "session.invalidate()"}}
+{"cwe": "NVD-CWE-Other", "cwe_name": "Other", "template": {"Insert Method Invocation Expression": "extractCNs"}}
+{"cwe": "CWE-79", "cwe_name": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')", "template": {"Insert Release Resource": "os.close()"}}
+{"cwe": "CWE-74", "cwe_name": "Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')", "template": {"Insert Method Invocation Expression": "org.owasp.encoder.Encode"}}
+{"cwe": "CWE-22", "cwe_name": "Path Traversal", "template": {"Insert Conditional Expression": "if(!URL_PATTERN.matcher(url).matches())"}}
+{"cwe": "CWE-79", "cwe_name": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')", "template": {"Insert Method Invocation Expression": "Util.xmlEscape"}}
+{"cwe": "CWE-404", "cwe_name": "Improper Resource Shutdown or Release", "template": {"Insert Release Resource": "FileSystem.closeAllForUGI"}}
+{"cwe": "CWE-284", "cwe_name": "Improper Access Control", "template": {"Insert Feature Configuration": "parserFactory.setFeature"}}
+{"cwe": "CWE-611", "cwe_name": "Improper Restriction of XML External Entity Reference ('XXE')", "template": {"Remove Buggy Statement": "parseDmozFile"}}
+{"cwe": "NVD-CWE-Other", "cwe_name": "Other", "template": {"Insert Conditional Expression": "prepareRequest"}}
+{"cwe": "CWE-79", "cwe_name": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')", "template": {"Insert Release Resource": "setData"}}
+{"cwe": "NVD-CWE-noinfo", "cwe_name": "", "template": {"Insert Feature Configuration": "WireFormatInfo"}}
+{"cwe": "CWE-200", "cwe_name": "Exposure of Sensitive Information to an Unauthorized Actor", "template": {"Insert Feature Configuration": "createWireFormat"}}
+{"cwe": "CWE-184", "cwe_name": "", "template": {"Insert Method Invocation Expression": "_findCustomBeanDeserializer"}}
+{"cwe": "CWE-295", "cwe_name": "Improper Certificate Validation", "template": {"Insert Method Invocation Expression": "@RequestMapping"}}
+{"cwe": "CWE-335", "cwe_name": "", "template": {"Insert Method Invocation Expression": "getUserByUsernameOrEmail"}}
+{"cwe": "CWE-611", "cwe_name": "Improper Restriction of XML External Entity Reference ('XXE')", "template": {"Insert Feature Configuration": "factory.setExpandEntityReferences(false)"}}
+{"cwe": "CWE-863", "cwe_name": "Incorrect Authorization", "template": {"Insert Conditional Expression": "getUserInfo"}}
+{"cwe": "CWE-89", "cwe_name": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')", "template": {"Insert Method Invocation Expression": "createCaptor"}}
+{"cwe": "NVD-CWE-noinfo", "cwe_name": "", "template": {"Insert Method Invocation Expression": "conditionalParse"}}
+{"cwe": "CWE-611", "cwe_name": "Improper Restriction of XML External Entity Reference ('XXE')", "template": {"Insert Feature Configuration": "setFeature"}}
+{"cwe": "CWE-20", "cwe_name": "Improper Input Validation", "template": {"Mutate Method Invocation Expression": "StaxUtils.read"}}
+{"cwe": "CWE-755", "cwe_name": "Improper Handling of Exceptional Conditions", "template": {"Insert Conditional Expression": "if (uri.isEmpty())"}}
+{"cwe": "CWE-264", "cwe_name": "Permissions, Privileges, and Access Controls", "template": {"Insert Method Invocation Expression": "put"}}
+{"cwe": "CWE-20", "cwe_name": "Improper Input Validation", "template": {"Insert Conditional Expression": "fUseGrammarPoolOnly"}}
+{"cwe": "CWE-20", "cwe_name": "Improper Input Validation", "template": {"Mutate Method Invocation Expression": "cleanupActionName"}}
+{"cwe": "CWE-20", "cwe_name": "Improper Input Validation", "template": {"Insert Method Invocation Expression": "ClientRequest"}}
+{"cwe": "CWE-20", "cwe_name": "Improper Input Validation", "template": {"Insert Feature Configuration": "documentBuilder.setFeature"}}
+{"cwe": "NVD-CWE-Other", "cwe_name": "Other", "template": {"Insert Conditional Expression": "secretPresentInRequest"}}
+{"cwe": "CWE-400", "cwe_name": "Uncontrolled Resource Consumption", "template": {"Insert Release Resource": "IoUtils.safeClose"}}
+{"cwe": "CWE-116", "cwe_name": "Improper Encoding or Escaping of Output", "template": {"Insert Conditional Expression": "getIsUnitTest()"}}
+{"cwe": "CWE-200", "cwe_name": "Exposure of Sensitive Information to an Unauthorized Actor", "template": {"Insert Conditional Expression": "getPasswordValue"}}
+{"cwe": "CWE-20", "cwe_name": "Improper Input Validation", "template": {"Insert Method Invocation Expression": "performTest"}}
+{"cwe": "CWE-347", "cwe_name": "Improper Verification of Cryptographic Signature", "template": {"Insert Method Invocation Expression": "performTest"}}
+{"cwe": "CWE-20", "cwe_name": "Improper Input Validation", "template": {"Insert Method Invocation Expression": "getByName"}}
+{"cwe": "CWE-377", "cwe_name": "", "template": {"Insert Release Resource": "deleteDirectory"}}
+{"cwe": "CWE-377", "cwe_name": "", "template": {"Mutate Method Invocation Expression": "Platform.getPlatform().getTmpDirectory().toString()"}}
+{"cwe": "CWE-377", "cwe_name": "", "template": {"Insert Release Resource": "deleteOnExit"}}
+{"cwe": "CWE-79", "cwe_name": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')", "template": {"Insert Release Resource": "deleteOnExit"}}
+{"cwe": "NVD-CWE-Other", "cwe_name": "Other", "template": {"Insert Method Invocation Expression": "Files.createTempFile"}}
+{"cwe": "CWE-863", "cwe_name": "Incorrect Authorization", "template": {"Remove Buggy Statement": "handleDigestHeader"}}
+{"cwe": "CWE-189", "cwe_name": "Numeric Errors", "template": {"Remove Buggy Statement": "parseLong"}}
+{"cwe": "CWE-94", "cwe_name": "Improper Control of Generation of Code ('Code Injection')", "template": {"Insert Release Resource": "close"}}
+{"cwe": "CWE-287", "cwe_name": "Improper Authentication", "template": {"Insert Conditional Expression": "if (uri.toString().matches(downloadSource))"}}
+{"cwe": "CWE-200", "cwe_name": "Exposure of Sensitive Information to an Unauthorized Actor", "template": {"Insert Null Pointer Checker": "matches"}}
+{"cwe": "CWE-22", "cwe_name": "Path Traversal", "template": {"Remove Buggy Statement": "delete"}}
+{"cwe": "CWE-611", "cwe_name": "Improper Restriction of XML External Entity Reference ('XXE')", "template": {"Insert Feature Configuration": "createDocumentBuilderFactory"}}
+{"cwe": "CWE-94", "cwe_name": "Improper Control of Generation of Code ('Code Injection')", "template": {"Insert Conditional Expression": "getRequestAttribute"}}
+{"cwe": "CWE-502", "cwe_name": "Deserialization of Untrusted Data", "template": {"Insert Method Invocation Expression": "validate"}}
+{"cwe": "CWE-16", "cwe_name": "Configuration", "template": {"Mutate Conditional Expression": "true"}}
+{"cwe": "CWE-284", "cwe_name": "Improper Access Control", "template": {"Insert Conditional Expression": "path.equals(alias)"}}
+{"cwe": "CWE-22", "cwe_name": "Path Traversal", "template": {"Insert Method Invocation Expression": "logger.trace"}}
+{"cwe": "CWE-269", "cwe_name": "Improper Privilege Management", "template": {"Insert Feature Configuration": "other.scope"}}
+{"cwe": "CWE-22", "cwe_name": "Path Traversal", "template": {"Mutate Method Invocation Expression": "replace"}}
+{"cwe": "CWE-522", "cwe_name": "Insufficiently Protected Credentials", "template": {"Remove Buggy Statement": "getRepoPassword"}}
+{"cwe": "CWE-835", "cwe_name": "Loop with Unreachable Exit Condition ('Infinite Loop')", "template": {"Insert Conditional Expression": "if (request.containsHeader(AUTH.PROXY_AUTH_RESP))"}}
+{"cwe": "CWE-200", "cwe_name": "Exposure of Sensitive Information to an Unauthorized Actor", "template": {"Remove Buggy Statement": "process"}}
+{"cwe": "CWE-444", "cwe_name": "Inconsistent Interpretation of HTTP Requests ('HTTP Request Smuggling')", "template": {"Insert Method Invocation Expression": "RequestDispatcher"}}
+{"cwe": "CWE-22", "cwe_name": "Path Traversal", "template": {"Insert Conditional Expression": "allowedResources"}}
+{"cwe": "CWE-400", "cwe_name": "Uncontrolled Resource Consumption", "template": {"Insert Release Resource": "scanPI"}}
+{"cwe": "CWE-264", "cwe_name": "Permissions, Privileges, and Access Controls", "template": {"Insert Null Pointer Checker": "getOrganization"}}
+{"cwe": "CWE-287", "cwe_name": "Improper Authentication", "template": {"Insert Null Pointer Checker": "org == null"}}
+{"cwe": "CWE-862", "cwe_name": "Missing Authorization", "template": {"Insert Conditional Expression": "validateConditions"}}
+{"cwe": "CWE-20", "cwe_name": "Improper Input Validation", "template": {"Insert Conditional Expression": "if (!validateTarget.isDOMElement())"}}
+{"cwe": "CWE-400", "cwe_name": "Uncontrolled Resource Consumption", "template": {"Mutate Return Statement": "TYPE"}}
+{"cwe": "CWE-400", "cwe_name": "Uncontrolled Resource Consumption", "template": {"Insert Method Invocation Expression": "get"}}
+{"cwe": "CWE-400", "cwe_name": "Uncontrolled Resource Consumption", "template": {"Insert Feature Configuration": "setProperty"}}
+{"cwe": "CWE-611", "cwe_name": "Improper Restriction of XML External Entity Reference ('XXE')", "template": {"Insert Feature Configuration": "features"}}
+{"cwe": "NVD-CWE-noinfo", "cwe_name": "", "template": {"Insert Method Invocation Expression": "getPasswordValue"}}
+{"cwe": "NVD-CWE-noinfo", "cwe_name": "", "template": {"Mutate Class Instance Creation": "EncryptHeader"}}
+{"cwe": "CWE-640", "cwe_name": "", "template": {"Insert Method Invocation Expression": "createChangePasswordRequest"}}
+{"cwe": "CWE-264", "cwe_name": "Permissions, Privileges, and Access Controls", "template": {"Insert Method Invocation Expression": "loadServletsPackage"}}
+{"cwe": "NVD-CWE-noinfo", "cwe_name": "", "template": {"Insert Conditional Expression": "ALLOWED_METHODS.contains(httpMethod)"}}
+{"cwe": "CWE-287", "cwe_name": "Improper Authentication", "template": {"Insert Conditional Expression": "if (!Boolean.TRUE.equals(message.getContextualProperty(NO_VALIDATE_PARTS)))"}}
+{"cwe": "CWE-287", "cwe_name": "Improper Authentication", "template": {"Insert Conditional Expression": "if (msg.containsKey(SECURITY_PROCESSED) || isGET(msg))"}}
+{"cwe": "CWE-22", "cwe_name": "Path Traversal", "template": {"Insert Feature Configuration": "putArray"}}
+{"cwe": "CWE-287", "cwe_name": "Improper Authentication", "template": {"Insert Conditional Expression": "if (!cores.getZkController().getZkStateReader().getClusterState().getLiveNodes().contains(nodename)) return null;"}}
+{"cwe": "CWE-184", "cwe_name": "", "template": {"Insert Conditional Expression": "if (!(context instanceof Computer))"}}
+{"cwe": "CWE-284", "cwe_name": "Improper Access Control", "template": {"Insert Method Invocation Expression": "channel.call(new Attack(f.getAbsolutePath()))"}}
+{"cwe": "CWE-284", "cwe_name": "Improper Access Control", "template": {"Insert Method Invocation Expression": "ChannelConfigurator.all()"}}
+{"cwe": "NVD-CWE-noinfo", "cwe_name": "", "template": {"Remove Buggy Statement": "isMultipart(httpRequest)"}}
+{"cwe": "CWE-79", "cwe_name": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')", "template": {"Insert Conditional Expression": "parameterNames"}}
+{"cwe": "CWE-200", "cwe_name": "Exposure of Sensitive Information to an Unauthorized Actor", "template": {"Insert Conditional Expression": "pathUC.equals(\"/.TIMESTAMP2\")"}}
+{"cwe": "CWE-264", "cwe_name": "Permissions, Privileges, and Access Controls", "template": {"Insert Release Resource": "exportStream"}}
+{"cwe": "NVD-CWE-Other", "cwe_name": "Other", "template": {"Insert Feature Configuration": "escapedTwo"}}
+{"cwe": "CWE-22", "cwe_name": "Path Traversal", "template": {"Remove Buggy Statement": "delete"}}
+{"cwe": "CWE-835", "cwe_name": "Loop with Unreachable Exit Condition ('Infinite Loop')", "template": {"Remove Buggy Statement": "parse"}}
+{"cwe": "CWE-863", "cwe_name": "Incorrect Authorization", "template": {"Insert Conditional Expression": "System.getSecurityManager() == null"}}
+{"cwe": "NVD-CWE-noinfo", "cwe_name": "", "template": {"Insert Feature Configuration": "selector-header"}}

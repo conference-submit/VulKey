@@ -1,0 +1,41 @@
+{"vul_id": "VUL4J-1", "cwe": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"vul_id": "VUL4J-3", "cwe": "CWE-611", "cwe_name": "Improper Restriction of XML External Entity Reference ('XXE')"}
+{"vul_id": "VUL4J-4", "cwe": "CWE-611", "cwe_name": "Improper Restriction of XML External Entity Reference ('XXE')"}
+{"vul_id": "VUL4J-5", "cwe": "CWE-22", "cwe_name": "Path Traversal"}
+{"vul_id": "VUL4J-6", "cwe": "CWE-835", "cwe_name": "Loop with Unreachable Exit Condition ('Infinite Loop')"}
+{"vul_id": "VUL4J-7", "cwe": "CWE-835", "cwe_name": "Loop with Unreachable Exit Condition ('Infinite Loop')"}
+{"vul_id": "VUL4J-8", "cwe": "CWE-835", "cwe_name": "Loop with Unreachable Exit Condition ('Infinite Loop')"}
+{"vul_id": "VUL4J-10", "cwe": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"vul_id": "VUL4J-12", "cwe": "CWE-835", "cwe_name": "Loop with Unreachable Exit Condition ('Infinite Loop')"}
+{"vul_id": "VUL4J-18", "cwe": "CWE-22", "cwe_name": "Path Traversal"}
+{"vul_id": "VUL4J-19", "cwe": "CWE-269", "cwe_name": "Improper Privilege Management"}
+{"vul_id": "VUL4J-20", "cwe": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"vul_id": "VUL4J-22", "cwe": "CWE-284", "cwe_name": "Improper Access Control"}
+{"vul_id": "VUL4J-23", "cwe": "CWE-79", "cwe_name": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"}
+{"vul_id": "VUL4J-24", "cwe": "CWE-611", "cwe_name": "Improper Restriction of XML External Entity Reference ('XXE')"}
+{"vul_id": "VUL4J-25", "cwe": "CWE-79", "cwe_name": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"}
+{"vul_id": "VUL4J-26", "cwe": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"vul_id": "VUL4J-30", "cwe": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"vul_id": "VUL4J-33", "cwe": "CWE-77", "cwe_name": "Improper Neutralization of Special Elements used in a Command ('Command Injection')"}
+{"vul_id": "VUL4J-39", "cwe": "CWE-200", "cwe_name": "Information Exposure"}
+{"vul_id": "VUL4J-40", "cwe": "CWE-287", "cwe_name": "Improper Authentication"}
+{"vul_id": "VUL4J-41", "cwe": "CWE-22", "cwe_name": "Path Traversal"}
+{"vul_id": "VUL4J-43", "cwe": "CWE-22", "cwe_name": "Path Traversal"}
+{"vul_id": "VUL4J-44", "cwe": "CWE-310", "cwe_name": "Cryptographic Issues"}
+{"vul_id": "VUL4J-46", "cwe": "CWE-611", "cwe_name": "Improper Restriction of XML External Entity Reference ('XXE')"}
+{"vul_id": "VUL4J-47", "cwe": "CWE-611", "cwe_name": "Improper Restriction of XML External Entity Reference ('XXE')"}
+{"vul_id": "VUL4J-50", "cwe": "CWE-79", "cwe_name": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"}
+{"vul_id": "VUL4J-53", "cwe": "CWE-835", "cwe_name": "Loop with Unreachable Exit Condition ('Infinite Loop')"}
+{"vul_id": "VUL4J-54", "cwe": "CWE-502", "cwe_name": "Deserialization of Untrusted Data"}
+{"vul_id": "VUL4J-55", "cwe": "CWE-835", "cwe_name": "Loop with Unreachable Exit Condition ('Infinite Loop')"}
+{"vul_id": "VUL4J-57", "cwe": "CWE-532", "cwe_name": "Information Exposure Through Log Files"}
+{"vul_id": "VUL4J-59", "cwe": "CWE-79", "cwe_name": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"}
+{"vul_id": "VUL4J-61", "cwe": "CWE-611", "cwe_name": "Improper Restriction of XML External Entity Reference ('XXE')"}
+{"vul_id": "VUL4J-62", "cwe": "CWE-287", "cwe_name": "Improper Authentication"}
+{"vul_id": "VUL4J-64", "cwe": "CWE-611", "cwe_name": "Improper Restriction of XML External Entity Reference ('XXE')"}
+{"vul_id": "VUL4J-65", "cwe": "CWE-22", "cwe_name": "Path Traversal"}
+{"vul_id": "VUL4J-66", "cwe": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"vul_id": "VUL4J-67", "cwe": "CWE-770", "cwe_name": "Allocation of Resources Without Limits or Throttling"}
+{"vul_id": "VUL4J-68", "cwe": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"vul_id": "VUL4J-73", "cwe": "CWE-522", "cwe_name": "Insufficiently Protected Credentials"}
+{"vul_id": "VUL4J-74", "cwe": "CWE-332", "cwe_name": "Insufficient Entropy"}

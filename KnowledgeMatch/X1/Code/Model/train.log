@@ -1,0 +1,343 @@
+03/04/2025 18:07:40 - INFO - __main__ -   Namespace(model_name_or_path='Salesforce/codet5p-220m', dataset_name='Transfer', subset=None, split=None, size_valid_set=10000, streaming=False, shuffle_buffer=5000, train_filename='../Data/train.jsonl,../Data/train-key.jsonl', dev_filename='../Data/valid.jsonl,../Data/valid-key.jsonl', output_dir='Model3', max_source_length=512, max_target_length=512, beam_size=1, train_batch_size=16, learning_rate=1e-05, num_train_epochs=30, eval_step=1, input_column_name='prompt', output_column_name='completion', seq_length=2048, max_steps=10000, batch_size=1, gradient_accumulation_steps=16, eos_token_id=49152, lora_r=16, lora_alpha=32, lora_dropout=0.05, lr_scheduler_type='cosine', num_warmup_steps=100, weight_decay=0.05, local_rank=0, no_fp16=True, bf16=True, no_gradient_checkpointing=False, seed=0, num_workers=None, log_freq=100, eval_freq=100, save_freq=1000)
+03/04/2025 18:07:40 - INFO - __main__ -   ---------------------------
+03/04/2025 18:08:38 - INFO - __main__ -   ---------------------------
+03/04/2025 18:08:38 - INFO - __main__ -   Load Dataset...
+Token indices sequence length is longer than the specified maximum sequence length for this model (590 > 512). Running this sequence through the model will result in indexing errors
+03/04/2025 18:08:39 - INFO - __main__ -   Load Dataset Success.
+03/04/2025 18:08:39 - WARNING - accelerate.utils.other -   Detected kernel version 5.4.241, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+03/04/2025 18:08:39 - INFO - __main__ -   Model train...
+03/04/2025 18:08:39 - INFO - __main__ -   ***** Running training *****
+03/04/2025 18:08:39 - INFO - __main__ -         Batch size = 16
+03/04/2025 18:08:39 - INFO - __main__ -         Num epoch = 30
+03/04/2025 18:08:39 - INFO - __main__ -   ****************************
+03/04/2025 18:08:39 - INFO - __main__ -     epoch = 0
+Load Tokenizer and Model...
+Input Too Long: 1021, Index: 62
+Input Too Long: 571, Index: 73
+Input Too Long: 562, Index: 74
+Input Too Long: 965, Index: 75
+Input Too Long: 829, Index: 76
+Input Too Long: 578, Index: 77
+Input Too Long: 1654, Index: 79
+Input Too Long: 529, Index: 84
+Input Too Long: 674, Index: 85
+Input Too Long: 3452, Index: 89
+Input Too Long: 1589, Index: 93
+Input Too Long: 543, Index: 101
+Input Too Long: 631, Index: 102
+Input Too Long: 1130, Index: 107
+Input Too Long: 1139, Index: 108
+Input Too Long: 739, Index: 112
+Input Too Long: 1587, Index: 117
+Input Too Long: 793, Index: 131
+Input Too Long: 2301, Index: 133
+Input Too Long: 524, Index: 138
+Input Too Long: 592, Index: 139
+Input Too Long: 2474, Index: 141
+Input Too Long: 1097, Index: 171
+Input Too Long: 1156, Index: 172
+Input Too Long: 1166, Index: 173
+Input Too Long: 1726, Index: 200
+Input Too Long: 1703, Index: 211
+Input Too Long: 866, Index: 228
+Input Too Long: 1354, Index: 274
+Input Too Long: 1102, Index: 275
+Input Too Long: 530, Index: 284
+Input Too Long: 746, Index: 290
+Input Too Long: 516, Index: 291
+Input Too Long: 1066, Index: 292
+Input Too Long: 926, Index: 293
+Input Too Long: 859, Index: 294
+Input Too Long: 645, Index: 301
+Input Too Long: 785, Index: 306
+Input Too Long: 810, Index: 307
+Input Too Long: 2049, Index: 308
+Input Too Long: 872, Index: 326
+Input Too Long: 961, Index: 331
+Input Too Long: 551, Index: 333
+Input Too Long: 555, Index: 334
+Input Too Long: 871, Index: 340
+Input Too Long: 1340, Index: 342
+Input Too Long: 1279, Index: 343
+Input Too Long: 731, Index: 344
+Input Too Long: 768, Index: 347
+Input Too Long: 1585, Index: 350
+Input Too Long: 799, Index: 357
+Input Too Long: 759, Index: 358
+Input Too Long: 633, Index: 359
+Input Too Long: 2484, Index: 365
+Input Too Long: 523, Index: 369
+Input Too Long: 659, Index: 370
+Input Too Long: 1397, Index: 381
+Input Too Long: 876, Index: 382
+Input Too Long: 1218, Index: 383
+Input Too Long: 762, Index: 386
+Input Too Long: 656, Index: 388
+Input Too Long: 521, Index: 389
+Input Too Long: 561, Index: 390
+Input Too Long: 738, Index: 394
+Input Too Long: 517, Index: 395
+Input Too Long: 605, Index: 397
+Input Too Long: 631, Index: 398
+Input Too Long: 765, Index: 404
+../Data/train.jsonl,../Data/train-key.jsonl total size: 337
+Input Too Long: 563, Index: 9
+Input Too Long: 639, Index: 44
+Input Too Long: 2250, Index: 50
+Input Too Long: 676, Index: 55
+Input Too Long: 546, Index: 57
+Input Too Long: 1376, Index: 77
+Input Too Long: 1358, Index: 78
+Input Too Long: 1259, Index: 87
+Input Too Long: 1168, Index: 88
+Input Too Long: 525, Index: 91
+Input Too Long: 1012, Index: 106
+Input Too Long: 549, Index: 116
+Input Too Long: 1509, Index: 121
+Input Too Long: 601, Index: 122
+Input Too Long: 724, Index: 131
+Input Too Long: 2400, Index: 132
+Input Too Long: 989, Index: 134
+../Data/valid.jsonl,../Data/valid-key.jsonl total size: 119
+Passing a tuple of `past_key_values` is deprecated and will be removed in Transformers v4.48.0. You should pass an instance of `EncoderDecoderCache` instead, e.g. `past_key_values=EncoderDecoderCache.from_legacy_cache(past_key_values)`.
+03/04/2025 18:08:43 - INFO - __main__ -   Epoch: 0, Train_Step: 0/22, Train_Loss = 5.6384
+03/04/2025 18:08:54 - INFO - __main__ -   epoch: 0, step: 21/22, loss: 3.2179, lr: 1e-05, oom: 0, time: 14s
+03/04/2025 18:08:54 - INFO - __main__ -   -------start validation--------
+03/04/2025 18:08:55 - INFO - __main__ -    0/8 , Val_Loss = 1.6313531398773193
+03/04/2025 18:08:56 - INFO - __main__ -   Validation Loss = 1.6863885670900345
+03/04/2025 18:08:56 - INFO - __main__ -   Current is Best Loss = 1.6863885670900345
+[2025-03-04 18:08:56,352] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+03/04/2025 18:09:01 - INFO - __main__ -   ---------end validation--------
+03/04/2025 18:09:01 - INFO - __main__ -     epoch = 1
+03/04/2025 18:09:03 - INFO - __main__ -   Epoch: 1, Train_Step: 0/22, Train_Loss = 1.5306
+03/04/2025 18:09:14 - INFO - __main__ -   epoch: 1, step: 21/22, loss: 1.5317, lr: 9.9e-06, oom: 0, time: 12s
+03/04/2025 18:09:14 - INFO - __main__ -   -------start validation--------
+03/04/2025 18:09:15 - INFO - __main__ -    0/8 , Val_Loss = 1.3117015361785889
+03/04/2025 18:09:16 - INFO - __main__ -   Validation Loss = 1.3698071837425232
+03/04/2025 18:09:16 - INFO - __main__ -   Current is Best Loss = 1.3698071837425232
+03/04/2025 18:09:20 - INFO - __main__ -   ---------end validation--------
+03/04/2025 18:09:20 - INFO - __main__ -     epoch = 2
+03/04/2025 18:09:21 - INFO - __main__ -   Epoch: 2, Train_Step: 0/22, Train_Loss = 1.2144
+03/04/2025 18:09:31 - INFO - __main__ -   epoch: 2, step: 21/22, loss: 1.269, lr: 9.8e-06, oom: 0, time: 11s
+03/04/2025 18:09:31 - INFO - __main__ -   -------start validation--------
+03/04/2025 18:09:32 - INFO - __main__ -    0/8 , Val_Loss = 1.230208158493042
+03/04/2025 18:09:33 - INFO - __main__ -   Validation Loss = 1.2772973477840424
+03/04/2025 18:09:33 - INFO - __main__ -   Current is Best Loss = 1.2772973477840424
+03/04/2025 18:09:37 - INFO - __main__ -   ---------end validation--------
+03/04/2025 18:09:37 - INFO - __main__ -     epoch = 3
+03/04/2025 18:09:38 - INFO - __main__ -   Epoch: 3, Train_Step: 0/22, Train_Loss = 1.0026
+03/04/2025 18:09:49 - INFO - __main__ -   epoch: 3, step: 21/22, loss: 1.1237, lr: 9.6e-06, oom: 0, time: 11s
+03/04/2025 18:09:49 - INFO - __main__ -   -------start validation--------
+03/04/2025 18:09:50 - INFO - __main__ -    0/8 , Val_Loss = 1.1914820671081543
+03/04/2025 18:09:51 - INFO - __main__ -   Validation Loss = 1.246113583445549
+03/04/2025 18:09:51 - INFO - __main__ -   Current is Best Loss = 1.246113583445549
+03/04/2025 18:09:54 - INFO - __main__ -   ---------end validation--------
+03/04/2025 18:09:54 - INFO - __main__ -     epoch = 4
+03/04/2025 18:09:56 - INFO - __main__ -   Epoch: 4, Train_Step: 0/22, Train_Loss = 0.986
+03/04/2025 18:10:06 - INFO - __main__ -   epoch: 4, step: 21/22, loss: 1.0204, lr: 9.3e-06, oom: 0, time: 11s
+03/04/2025 18:10:06 - INFO - __main__ -   -------start validation--------
+03/04/2025 18:10:07 - INFO - __main__ -    0/8 , Val_Loss = 1.2010804414749146
+03/04/2025 18:10:08 - INFO - __main__ -   Validation Loss = 1.243360310792923
+03/04/2025 18:10:08 - INFO - __main__ -   Current is Best Loss = 1.243360310792923
+03/04/2025 18:10:11 - INFO - __main__ -   ---------end validation--------
+03/04/2025 18:10:11 - INFO - __main__ -     epoch = 5
+03/04/2025 18:10:13 - INFO - __main__ -   Epoch: 5, Train_Step: 0/22, Train_Loss = 0.9095
+03/04/2025 18:10:23 - INFO - __main__ -   epoch: 5, step: 21/22, loss: 0.9509, lr: 9e-06, oom: 0, time: 11s
+03/04/2025 18:10:23 - INFO - __main__ -   -------start validation--------
+03/04/2025 18:10:24 - INFO - __main__ -    0/8 , Val_Loss = 1.139923095703125
+03/04/2025 18:10:25 - INFO - __main__ -   Validation Loss = 1.200250431895256
+03/04/2025 18:10:25 - INFO - __main__ -   Current is Best Loss = 1.200250431895256
+03/04/2025 18:10:29 - INFO - __main__ -   ---------end validation--------
+03/04/2025 18:10:29 - INFO - __main__ -     epoch = 6
+03/04/2025 18:10:30 - INFO - __main__ -   Epoch: 6, Train_Step: 0/22, Train_Loss = 0.8279
+03/04/2025 18:10:40 - INFO - __main__ -   epoch: 6, step: 21/22, loss: 0.8699, lr: 8.7e-06, oom: 0, time: 11s
+03/04/2025 18:10:40 - INFO - __main__ -   -------start validation--------
+03/04/2025 18:10:41 - INFO - __main__ -    0/8 , Val_Loss = 1.1408617496490479
+03/04/2025 18:10:42 - INFO - __main__ -   Validation Loss = 1.199323371052742
+03/04/2025 18:10:42 - INFO - __main__ -   Current is Best Loss = 1.199323371052742
+03/04/2025 18:10:46 - INFO - __main__ -   ---------end validation--------
+03/04/2025 18:10:46 - INFO - __main__ -     epoch = 7
+03/04/2025 18:10:47 - INFO - __main__ -   Epoch: 7, Train_Step: 0/22, Train_Loss = 0.7664
+03/04/2025 18:10:58 - INFO - __main__ -   epoch: 7, step: 21/22, loss: 0.807, lr: 8.3e-06, oom: 0, time: 11s
+03/04/2025 18:10:58 - INFO - __main__ -   -------start validation--------
+03/04/2025 18:10:59 - INFO - __main__ -    0/8 , Val_Loss = 1.1398472785949707
+03/04/2025 18:11:00 - INFO - __main__ -   Validation Loss = 1.2009250968694687
+03/04/2025 18:11:00 - INFO - __main__ -   Current Not Best Loss, Current Loss = 1.2009250968694687, Best Loss is = 1.199323371052742
+03/04/2025 18:11:00 - INFO - __main__ -   ---------end validation--------
+03/04/2025 18:11:00 - INFO - __main__ -     epoch = 8
+03/04/2025 18:11:01 - INFO - __main__ -   Epoch: 8, Train_Step: 0/22, Train_Loss = 0.6968
+03/04/2025 18:11:12 - INFO - __main__ -   epoch: 8, step: 21/22, loss: 0.7554, lr: 7.9e-06, oom: 0, time: 11s
+03/04/2025 18:11:12 - INFO - __main__ -   -------start validation--------
+03/04/2025 18:11:13 - INFO - __main__ -    0/8 , Val_Loss = 1.1460787057876587
+03/04/2025 18:11:14 - INFO - __main__ -   Validation Loss = 1.2047138661146164
+03/04/2025 18:11:14 - INFO - __main__ -   Current Not Best Loss, Current Loss = 1.2047138661146164, Best Loss is = 1.199323371052742
+03/04/2025 18:11:14 - INFO - __main__ -   ---------end validation--------
+03/04/2025 18:11:14 - INFO - __main__ -     epoch = 9
+03/04/2025 18:11:15 - INFO - __main__ -   Epoch: 9, Train_Step: 0/22, Train_Loss = 0.6679
+03/04/2025 18:11:25 - INFO - __main__ -   epoch: 9, step: 21/22, loss: 0.7128, lr: 7.5e-06, oom: 0, time: 11s
+03/04/2025 18:11:25 - INFO - __main__ -   -------start validation--------
+03/04/2025 18:11:27 - INFO - __main__ -    0/8 , Val_Loss = 1.1480821371078491
+03/04/2025 18:11:28 - INFO - __main__ -   Validation Loss = 1.2060861736536026
+03/04/2025 18:11:28 - INFO - __main__ -   Current Not Best Loss, Current Loss = 1.2060861736536026, Best Loss is = 1.199323371052742
+03/04/2025 18:11:28 - INFO - __main__ -   ---------end validation--------
+03/04/2025 18:11:28 - INFO - __main__ -     epoch = 10
+03/04/2025 18:11:29 - INFO - __main__ -   Epoch: 10, Train_Step: 0/22, Train_Loss = 0.5409
+03/04/2025 18:11:40 - INFO - __main__ -   epoch: 10, step: 21/22, loss: 0.6493, lr: 7e-06, oom: 0, time: 11s
+03/04/2025 18:11:40 - INFO - __main__ -   -------start validation--------
+03/04/2025 18:11:40 - INFO - __main__ -    0/8 , Val_Loss = 1.175638198852539
+03/04/2025 18:11:42 - INFO - __main__ -   Validation Loss = 1.2318171560764313
+03/04/2025 18:11:42 - INFO - __main__ -   Current Not Best Loss, Current Loss = 1.2318171560764313, Best Loss is = 1.199323371052742
+03/04/2025 18:11:42 - INFO - __main__ -   ---------end validation--------
+03/04/2025 18:11:42 - INFO - __main__ -     epoch = 11
+03/04/2025 18:11:43 - INFO - __main__ -   Epoch: 11, Train_Step: 0/22, Train_Loss = 0.5562
+03/04/2025 18:11:54 - INFO - __main__ -   epoch: 11, step: 21/22, loss: 0.6185, lr: 6.5e-06, oom: 0, time: 12s
+03/04/2025 18:11:54 - INFO - __main__ -   -------start validation--------
+03/04/2025 18:11:54 - INFO - __main__ -    0/8 , Val_Loss = 1.1658133268356323
+03/04/2025 18:11:56 - INFO - __main__ -   Validation Loss = 1.2352767586708069
+03/04/2025 18:11:56 - INFO - __main__ -   Current Not Best Loss, Current Loss = 1.2352767586708069, Best Loss is = 1.199323371052742
+03/04/2025 18:11:56 - INFO - __main__ -   ---------end validation--------
+03/04/2025 18:11:56 - INFO - __main__ -     epoch = 12
+03/04/2025 18:11:57 - INFO - __main__ -   Epoch: 12, Train_Step: 0/22, Train_Loss = 0.5251
+03/04/2025 18:12:08 - INFO - __main__ -   epoch: 12, step: 21/22, loss: 0.5877, lr: 6e-06, oom: 0, time: 12s
+03/04/2025 18:12:08 - INFO - __main__ -   -------start validation--------
+03/04/2025 18:12:09 - INFO - __main__ -    0/8 , Val_Loss = 1.1651179790496826
+03/04/2025 18:12:10 - INFO - __main__ -   Validation Loss = 1.2273296415805817
+03/04/2025 18:12:10 - INFO - __main__ -   Current Not Best Loss, Current Loss = 1.2273296415805817, Best Loss is = 1.199323371052742
+03/04/2025 18:12:10 - INFO - __main__ -   ---------end validation--------
+03/04/2025 18:12:10 - INFO - __main__ -     epoch = 13
+03/04/2025 18:12:11 - INFO - __main__ -   Epoch: 13, Train_Step: 0/22, Train_Loss = 0.4487
+03/04/2025 18:12:22 - INFO - __main__ -   epoch: 13, step: 21/22, loss: 0.5509, lr: 5.5e-06, oom: 0, time: 12s
+03/04/2025 18:12:22 - INFO - __main__ -   -------start validation--------
+03/04/2025 18:12:23 - INFO - __main__ -    0/8 , Val_Loss = 1.170417070388794
+03/04/2025 18:12:24 - INFO - __main__ -   Validation Loss = 1.2298654913902283
+03/04/2025 18:12:24 - INFO - __main__ -   Current Not Best Loss, Current Loss = 1.2298654913902283, Best Loss is = 1.199323371052742
+03/04/2025 18:12:24 - INFO - __main__ -   ---------end validation--------
+03/04/2025 18:12:24 - INFO - __main__ -     epoch = 14
+03/04/2025 18:12:25 - INFO - __main__ -   Epoch: 14, Train_Step: 0/22, Train_Loss = 0.4286
+03/04/2025 18:12:36 - INFO - __main__ -   epoch: 14, step: 21/22, loss: 0.5153, lr: 5e-06, oom: 0, time: 12s
+03/04/2025 18:12:36 - INFO - __main__ -   -------start validation--------
+03/04/2025 18:12:37 - INFO - __main__ -    0/8 , Val_Loss = 1.1889535188674927
+03/04/2025 18:12:38 - INFO - __main__ -   Validation Loss = 1.250327855348587
+03/04/2025 18:12:38 - INFO - __main__ -   Current Not Best Loss, Current Loss = 1.250327855348587, Best Loss is = 1.199323371052742
+03/04/2025 18:12:38 - INFO - __main__ -   ---------end validation--------
+03/04/2025 18:12:38 - INFO - __main__ -     epoch = 15
+03/04/2025 18:12:39 - INFO - __main__ -   Epoch: 15, Train_Step: 0/22, Train_Loss = 0.4415
+03/04/2025 18:12:50 - INFO - __main__ -   epoch: 15, step: 21/22, loss: 0.491, lr: 4.5e-06, oom: 0, time: 12s
+03/04/2025 18:12:50 - INFO - __main__ -   -------start validation--------
+03/04/2025 18:12:51 - INFO - __main__ -    0/8 , Val_Loss = 1.1904455423355103
+03/04/2025 18:12:52 - INFO - __main__ -   Validation Loss = 1.2548122256994247
+03/04/2025 18:12:52 - INFO - __main__ -   Current Not Best Loss, Current Loss = 1.2548122256994247, Best Loss is = 1.199323371052742
+03/04/2025 18:12:52 - INFO - __main__ -   ---------end validation--------
+03/04/2025 18:12:52 - INFO - __main__ -     epoch = 16
+03/04/2025 18:12:53 - INFO - __main__ -   Epoch: 16, Train_Step: 0/22, Train_Loss = 0.4099
+03/04/2025 18:13:04 - INFO - __main__ -   epoch: 16, step: 21/22, loss: 0.4723, lr: 4e-06, oom: 0, time: 12s
+03/04/2025 18:13:04 - INFO - __main__ -   -------start validation--------
+03/04/2025 18:13:05 - INFO - __main__ -    0/8 , Val_Loss = 1.182249903678894
+03/04/2025 18:13:06 - INFO - __main__ -   Validation Loss = 1.2574323862791061
+03/04/2025 18:13:06 - INFO - __main__ -   Current Not Best Loss, Current Loss = 1.2574323862791061, Best Loss is = 1.199323371052742
+03/04/2025 18:13:06 - INFO - __main__ -   ---------end validation--------
+03/04/2025 18:13:06 - INFO - __main__ -     epoch = 17
+03/04/2025 18:13:07 - INFO - __main__ -   Epoch: 17, Train_Step: 0/22, Train_Loss = 0.409
+03/04/2025 18:13:18 - INFO - __main__ -   epoch: 17, step: 21/22, loss: 0.4557, lr: 3.5e-06, oom: 0, time: 12s
+03/04/2025 18:13:18 - INFO - __main__ -   -------start validation--------
+03/04/2025 18:13:19 - INFO - __main__ -    0/8 , Val_Loss = 1.1951661109924316
+03/04/2025 18:13:20 - INFO - __main__ -   Validation Loss = 1.2747990190982819
+03/04/2025 18:13:20 - INFO - __main__ -   Current Not Best Loss, Current Loss = 1.2747990190982819, Best Loss is = 1.199323371052742
+03/04/2025 18:13:20 - INFO - __main__ -   ---------end validation--------
+03/04/2025 18:13:20 - INFO - __main__ -     epoch = 18
+03/04/2025 18:13:21 - INFO - __main__ -   Epoch: 18, Train_Step: 0/22, Train_Loss = 0.3901
+03/04/2025 18:13:32 - INFO - __main__ -   epoch: 18, step: 21/22, loss: 0.4428, lr: 3e-06, oom: 0, time: 11s
+03/04/2025 18:13:32 - INFO - __main__ -   -------start validation--------
+03/04/2025 18:13:33 - INFO - __main__ -    0/8 , Val_Loss = 1.2098256349563599
+03/04/2025 18:13:34 - INFO - __main__ -   Validation Loss = 1.2818956971168518
+03/04/2025 18:13:34 - INFO - __main__ -   Current Not Best Loss, Current Loss = 1.2818956971168518, Best Loss is = 1.199323371052742
+03/04/2025 18:13:34 - INFO - __main__ -   ---------end validation--------
+03/04/2025 18:13:34 - INFO - __main__ -     epoch = 19
+03/04/2025 18:13:36 - INFO - __main__ -   Epoch: 19, Train_Step: 0/22, Train_Loss = 0.3431
+03/04/2025 18:13:46 - INFO - __main__ -   epoch: 19, step: 21/22, loss: 0.425, lr: 2.5e-06, oom: 0, time: 12s
+03/04/2025 18:13:46 - INFO - __main__ -   -------start validation--------
+03/04/2025 18:13:47 - INFO - __main__ -    0/8 , Val_Loss = 1.2111194133758545
+03/04/2025 18:13:48 - INFO - __main__ -   Validation Loss = 1.2832999676465988
+03/04/2025 18:13:48 - INFO - __main__ -   Current Not Best Loss, Current Loss = 1.2832999676465988, Best Loss is = 1.199323371052742
+03/04/2025 18:13:48 - INFO - __main__ -   ---------end validation--------
+03/04/2025 18:13:48 - INFO - __main__ -     epoch = 20
+03/04/2025 18:13:50 - INFO - __main__ -   Epoch: 20, Train_Step: 0/22, Train_Loss = 0.351
+03/04/2025 18:14:00 - INFO - __main__ -   epoch: 20, step: 21/22, loss: 0.4112, lr: 2.1e-06, oom: 0, time: 11s
+03/04/2025 18:14:00 - INFO - __main__ -   -------start validation--------
+03/04/2025 18:14:01 - INFO - __main__ -    0/8 , Val_Loss = 1.215696930885315
+03/04/2025 18:14:02 - INFO - __main__ -   Validation Loss = 1.284870594739914
+03/04/2025 18:14:02 - INFO - __main__ -   Current Not Best Loss, Current Loss = 1.284870594739914, Best Loss is = 1.199323371052742
+03/04/2025 18:14:02 - INFO - __main__ -   ---------end validation--------
+03/04/2025 18:14:02 - INFO - __main__ -     epoch = 21
+03/04/2025 18:14:04 - INFO - __main__ -   Epoch: 21, Train_Step: 0/22, Train_Loss = 0.3145
+03/04/2025 18:14:15 - INFO - __main__ -   epoch: 21, step: 21/22, loss: 0.3971, lr: 1.7e-06, oom: 0, time: 12s
+03/04/2025 18:14:15 - INFO - __main__ -   -------start validation--------
+03/04/2025 18:14:16 - INFO - __main__ -    0/8 , Val_Loss = 1.2261078357696533
+03/04/2025 18:14:17 - INFO - __main__ -   Validation Loss = 1.2986934334039688
+03/04/2025 18:14:17 - INFO - __main__ -   Current Not Best Loss, Current Loss = 1.2986934334039688, Best Loss is = 1.199323371052742
+03/04/2025 18:14:17 - INFO - __main__ -   ---------end validation--------
+03/04/2025 18:14:17 - INFO - __main__ -     epoch = 22
+03/04/2025 18:14:18 - INFO - __main__ -   Epoch: 22, Train_Step: 0/22, Train_Loss = 0.2957
+03/04/2025 18:14:29 - INFO - __main__ -   epoch: 22, step: 21/22, loss: 0.391, lr: 1.3e-06, oom: 0, time: 11s
+03/04/2025 18:14:29 - INFO - __main__ -   -------start validation--------
+03/04/2025 18:14:30 - INFO - __main__ -    0/8 , Val_Loss = 1.2169668674468994
+03/04/2025 18:14:31 - INFO - __main__ -   Validation Loss = 1.2927903532981873
+03/04/2025 18:14:31 - INFO - __main__ -   Current Not Best Loss, Current Loss = 1.2927903532981873, Best Loss is = 1.199323371052742
+03/04/2025 18:14:31 - INFO - __main__ -   ---------end validation--------
+03/04/2025 18:14:31 - INFO - __main__ -     epoch = 23
+03/04/2025 18:14:32 - INFO - __main__ -   Epoch: 23, Train_Step: 0/22, Train_Loss = 0.3132
+03/04/2025 18:14:43 - INFO - __main__ -   epoch: 23, step: 21/22, loss: 0.3907, lr: 1e-06, oom: 0, time: 12s
+03/04/2025 18:14:43 - INFO - __main__ -   -------start validation--------
+03/04/2025 18:14:45 - INFO - __main__ -    0/8 , Val_Loss = 1.2199472188949585
+03/04/2025 18:14:46 - INFO - __main__ -   Validation Loss = 1.2948314249515533
+03/04/2025 18:14:46 - INFO - __main__ -   Current Not Best Loss, Current Loss = 1.2948314249515533, Best Loss is = 1.199323371052742
+03/04/2025 18:14:46 - INFO - __main__ -   ---------end validation--------
+03/04/2025 18:14:46 - INFO - __main__ -     epoch = 24
+03/04/2025 18:14:47 - INFO - __main__ -   Epoch: 24, Train_Step: 0/22, Train_Loss = 0.3098
+03/04/2025 18:14:58 - INFO - __main__ -   epoch: 24, step: 21/22, loss: 0.3803, lr: 7e-07, oom: 0, time: 12s
+03/04/2025 18:14:58 - INFO - __main__ -   -------start validation--------
+03/04/2025 18:14:59 - INFO - __main__ -    0/8 , Val_Loss = 1.2208696603775024
+03/04/2025 18:15:00 - INFO - __main__ -   Validation Loss = 1.2982178032398224
+03/04/2025 18:15:00 - INFO - __main__ -   Current Not Best Loss, Current Loss = 1.2982178032398224, Best Loss is = 1.199323371052742
+03/04/2025 18:15:00 - INFO - __main__ -   ---------end validation--------
+03/04/2025 18:15:00 - INFO - __main__ -     epoch = 25
+03/04/2025 18:15:01 - INFO - __main__ -   Epoch: 25, Train_Step: 0/22, Train_Loss = 0.3234
+03/04/2025 18:15:12 - INFO - __main__ -   epoch: 25, step: 21/22, loss: 0.3711, lr: 4e-07, oom: 0, time: 11s
+03/04/2025 18:15:12 - INFO - __main__ -   -------start validation--------
+03/04/2025 18:15:13 - INFO - __main__ -    0/8 , Val_Loss = 1.2249101400375366
+03/04/2025 18:15:14 - INFO - __main__ -   Validation Loss = 1.3031448125839233
+03/04/2025 18:15:14 - INFO - __main__ -   Current Not Best Loss, Current Loss = 1.3031448125839233, Best Loss is = 1.199323371052742
+03/04/2025 18:15:14 - INFO - __main__ -   ---------end validation--------
+03/04/2025 18:15:14 - INFO - __main__ -     epoch = 26
+03/04/2025 18:15:15 - INFO - __main__ -   Epoch: 26, Train_Step: 0/22, Train_Loss = 0.3113
+03/04/2025 18:15:26 - INFO - __main__ -   epoch: 26, step: 21/22, loss: 0.3734, lr: 2e-07, oom: 0, time: 12s
+03/04/2025 18:15:26 - INFO - __main__ -   -------start validation--------
+03/04/2025 18:15:27 - INFO - __main__ -    0/8 , Val_Loss = 1.2287956476211548
+03/04/2025 18:15:28 - INFO - __main__ -   Validation Loss = 1.30570450425148
+03/04/2025 18:15:28 - INFO - __main__ -   Current Not Best Loss, Current Loss = 1.30570450425148, Best Loss is = 1.199323371052742
+03/04/2025 18:15:28 - INFO - __main__ -   ---------end validation--------
+03/04/2025 18:15:28 - INFO - __main__ -     epoch = 27
+03/04/2025 18:15:30 - INFO - __main__ -   Epoch: 27, Train_Step: 0/22, Train_Loss = 0.3092
+03/04/2025 18:15:40 - INFO - __main__ -   epoch: 27, step: 21/22, loss: 0.3682, lr: 1e-07, oom: 0, time: 12s
+03/04/2025 18:15:40 - INFO - __main__ -   -------start validation--------
+03/04/2025 18:15:41 - INFO - __main__ -    0/8 , Val_Loss = 1.2270838022232056
+03/04/2025 18:15:42 - INFO - __main__ -   Validation Loss = 1.3060304671525955
+03/04/2025 18:15:42 - INFO - __main__ -   Current Not Best Loss, Current Loss = 1.3060304671525955, Best Loss is = 1.199323371052742
+03/04/2025 18:15:42 - INFO - __main__ -   ---------end validation--------
+03/04/2025 18:15:42 - INFO - __main__ -     epoch = 28
+03/04/2025 18:15:44 - INFO - __main__ -   Epoch: 28, Train_Step: 0/22, Train_Loss = 0.3073
+03/04/2025 18:15:54 - INFO - __main__ -   epoch: 28, step: 21/22, loss: 0.3737, lr: 0.0, oom: 0, time: 11s
+03/04/2025 18:15:54 - INFO - __main__ -   -------start validation--------
+03/04/2025 18:15:56 - INFO - __main__ -    0/8 , Val_Loss = 1.2272233963012695
+03/04/2025 18:15:57 - INFO - __main__ -   Validation Loss = 1.3064131885766983
+03/04/2025 18:15:57 - INFO - __main__ -   Current Not Best Loss, Current Loss = 1.3064131885766983, Best Loss is = 1.199323371052742
+03/04/2025 18:15:57 - INFO - __main__ -   ---------end validation--------
+03/04/2025 18:15:57 - INFO - __main__ -     epoch = 29
+03/04/2025 18:15:58 - INFO - __main__ -   Epoch: 29, Train_Step: 0/22, Train_Loss = 0.3269
+03/04/2025 18:16:09 - INFO - __main__ -   epoch: 29, step: 21/22, loss: 0.3671, lr: 0.0, oom: 0, time: 12s
+03/04/2025 18:16:09 - INFO - __main__ -   -------start validation--------
+03/04/2025 18:16:10 - INFO - __main__ -    0/8 , Val_Loss = 1.2272776365280151
+03/04/2025 18:16:11 - INFO - __main__ -   Validation Loss = 1.3065149635076523
+03/04/2025 18:16:11 - INFO - __main__ -   Current Not Best Loss, Current Loss = 1.3065149635076523, Best Loss is = 1.199323371052742
+03/04/2025 18:16:11 - INFO - __main__ -   This is Last Checkpoint, Current Loss = 1.3065149635076523, Best Loss is = 1.199323371052742
+03/04/2025 18:16:14 - INFO - __main__ -   ---------end validation--------

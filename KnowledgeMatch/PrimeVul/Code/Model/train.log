@@ -1,0 +1,416 @@
+02/27/2025 01:08:16 - INFO - __main__ -   Namespace(model_name_or_path='Salesforce/codet5p-220m', dataset_name='Transfer', subset=None, split=None, size_valid_set=10000, streaming=False, shuffle_buffer=5000, train_filename='../Data/train.jsonl,../Data/train-key.jsonl', dev_filename='../Data/valid.jsonl,../Data/valid-key.jsonl', output_dir='Model5', max_source_length=512, max_target_length=128, beam_size=1, train_batch_size=16, learning_rate=1e-05, num_train_epochs=10, eval_step=1, input_column_name='prompt', output_column_name='completion', seq_length=2048, max_steps=10000, batch_size=1, gradient_accumulation_steps=16, eos_token_id=49152, lora_r=16, lora_alpha=32, lora_dropout=0.05, lr_scheduler_type='cosine', num_warmup_steps=100, weight_decay=0.05, local_rank=0, no_fp16=True, bf16=True, no_gradient_checkpointing=False, seed=0, num_workers=None, log_freq=100, eval_freq=100, save_freq=1000)
+02/27/2025 01:08:16 - INFO - __main__ -   ---------------------------
+02/27/2025 01:09:11 - INFO - __main__ -   ---------------------------
+02/27/2025 01:09:11 - INFO - __main__ -   Load Dataset...
+Token indices sequence length is longer than the specified maximum sequence length for this model (6443 > 512). Running this sequence through the model will result in indexing errors
+Load Tokenizer and Model...
+Input Too Long: 6450, Index: 4
+Input Too Long: 3190, Index: 42
+Input Too Long: 2686, Index: 66
+Input Too Long: 2813, Index: 83
+Input Too Long: 3580, Index: 86
+Input Too Long: 11548, Index: 99
+Input Too Long: 1300, Index: 151
+Input Too Long: 1235, Index: 164
+Input Too Long: 3816, Index: 175
+Input Too Long: 732, Index: 216
+Input Too Long: 643, Index: 222
+Input Too Long: 1164, Index: 240
+Input Too Long: 7756, Index: 269
+Input Too Long: 3730, Index: 344
+Input Too Long: 794, Index: 355
+Input Too Long: 1285, Index: 372
+Input Too Long: 1329, Index: 387
+Input Too Long: 906, Index: 394
+Input Too Long: 1633, Index: 398
+Input Too Long: 1663, Index: 423
+Input Too Long: 2265, Index: 440
+Input Too Long: 634, Index: 444
+Input Too Long: 743, Index: 447
+Input Too Long: 825, Index: 466
+Input Too Long: 596, Index: 487
+Input Too Long: 847, Index: 488
+Input Too Long: 2383, Index: 493
+Input Too Long: 11978, Index: 500
+Input Too Long: 1267, Index: 502
+Input Too Long: 1975, Index: 503
+Input Too Long: 1308, Index: 504
+Input Too Long: 841, Index: 509
+Input Too Long: 1855, Index: 512
+Input Too Long: 14321, Index: 515
+Input Too Long: 1414, Index: 538
+Input Too Long: 2390, Index: 593
+Input Too Long: 5231, Index: 638
+Input Too Long: 1946, Index: 648
+Input Too Long: 660, Index: 665
+Input Too Long: 18515, Index: 672
+Input Too Long: 3765, Index: 675
+Input Too Long: 1375, Index: 696
+Input Too Long: 3189, Index: 701
+Input Too Long: 1587, Index: 708
+Input Too Long: 1538, Index: 711
+Input Too Long: 1607, Index: 713
+Input Too Long: 2125, Index: 714
+Input Too Long: 1746, Index: 716
+Input Too Long: 2182, Index: 722
+Input Too Long: 1423, Index: 735
+Input Too Long: 1565, Index: 747
+Input Too Long: 2766, Index: 756
+Input Too Long: 6391, Index: 762
+Input Too Long: 927, Index: 780
+Input Too Long: 10358, Index: 802
+Input Too Long: 4861, Index: 805
+Input Too Long: 821, Index: 811
+Input Too Long: 2968, Index: 822
+Input Too Long: 4865, Index: 835
+Input Too Long: 3080, Index: 843
+Input Too Long: 3258, Index: 846
+Input Too Long: 5327, Index: 848
+Input Too Long: 1798, Index: 850
+Input Too Long: 1261, Index: 862
+Input Too Long: 1623, Index: 868
+Input Too Long: 10258, Index: 870
+Input Too Long: 1335, Index: 910
+Input Too Long: 1205, Index: 989
+Input Too Long: 1253, Index: 998
+Input Too Long: 1279, Index: 1008
+Input Too Long: 900, Index: 1023
+Input Too Long: 4944, Index: 1027
+Input Too Long: 2352, Index: 1036
+Input Too Long: 8128, Index: 1045
+Input Too Long: 4930, Index: 1052
+Input Too Long: 3283, Index: 1065
+Input Too Long: 3636, Index: 1084
+Input Too Long: 915, Index: 1101
+Input Too Long: 793, Index: 1102
+Input Too Long: 12248, Index: 1112
+Input Too Long: 849, Index: 1116
+Input Too Long: 3887, Index: 1126
+Input Too Long: 1668, Index: 1137
+Input Too Long: 2244, Index: 1139
+Input Too Long: 5073, Index: 1151
+Input Too Long: 1869, Index: 1159
+Input Too Long: 998, Index: 1165
+Input Too Long: 4403, Index: 1181
+Input Too Long: 7410, Index: 1204
+Input Too Long: 1804, Index: 1213
+Input Too Long: 640, Index: 1217
+Input Too Long: 797, Index: 1233
+Input Too Long: 1537, Index: 1328
+Input Too Long: 1607, Index: 1416
+Input Too Long: 2014, Index: 1454
+Input Too Long: 4753, Index: 1463
+Input Too Long: 3245, Index: 1469
+Input Too Long: 1402, Index: 1475
+Input Too Long: 11506, Index: 1483
+Input Too Long: 18682, Index: 1484
+Input Too Long: 1659, Index: 1500
+Input Too Long: 1503, Index: 1507
+Input Too Long: 1125, Index: 1524
+Input Too Long: 2144, Index: 1546
+Input Too Long: 1464, Index: 1550
+Input Too Long: 2002, Index: 1571
+Input Too Long: 8584, Index: 1580
+Input Too Long: 1605, Index: 1585
+Input Too Long: 2803, Index: 1589
+Input Too Long: 1729, Index: 1591
+Input Too Long: 6880, Index: 1595
+Input Too Long: 10538, Index: 1601
+Input Too Long: 1508, Index: 1617
+Input Too Long: 1604, Index: 1629
+Input Too Long: 1027, Index: 1635
+Input Too Long: 1271, Index: 1636
+Input Too Long: 715, Index: 1638
+Input Too Long: 14700, Index: 1675
+Input Too Long: 2937, Index: 1683
+Input Too Long: 6785, Index: 1684
+Input Too Long: 3338, Index: 1688
+Input Too Long: 2852, Index: 1703
+Input Too Long: 550, Index: 1747
+Input Too Long: 1342, Index: 1749
+Input Too Long: 8148, Index: 1794
+Input Too Long: 2269, Index: 1811
+Input Too Long: 2018, Index: 1819
+Input Too Long: 4843, Index: 1821
+Input Too Long: 9225, Index: 1829
+Input Too Long: 1157, Index: 1840
+Input Too Long: 1685, Index: 1841
+Input Too Long: 2400, Index: 1844
+Input Too Long: 2277, Index: 1847
+Input Too Long: 2136, Index: 1848
+Input Too Long: 1007, Index: 1851
+Input Too Long: 2170, Index: 1865
+Input Too Long: 5086, Index: 1870
+Input Too Long: 3342, Index: 1873
+Input Too Long: 5041, Index: 1875
+Input Too Long: 543, Index: 1881
+Input Too Long: 778, Index: 1887
+Input Too Long: 1427, Index: 1891
+Input Too Long: 2128, Index: 1902
+Input Too Long: 2752, Index: 1904
+Input Too Long: 3421, Index: 1905
+Input Too Long: 4896, Index: 1914
+Input Too Long: 1430, Index: 1934
+Input Too Long: 765, Index: 1987
+Input Too Long: 4353, Index: 1999
+Input Too Long: 12356, Index: 2013
+Input Too Long: 532, Index: 2014
+Input Too Long: 640, Index: 2022
+Input Too Long: 4195, Index: 2031
+Input Too Long: 1924, Index: 2041
+Input Too Long: 840, Index: 2050
+Input Too Long: 6497, Index: 2053
+Input Too Long: 1514, Index: 2054
+Input Too Long: 1556, Index: 2061
+Input Too Long: 918, Index: 2068
+Input Too Long: 11241, Index: 2074
+Input Too Long: 8891, Index: 2082
+Input Too Long: 6394, Index: 2107
+Input Too Long: 1960, Index: 2125
+Input Too Long: 2084, Index: 2126
+Input Too Long: 905, Index: 2153
+Input Too Long: 1913, Index: 2167
+Input Too Long: 8581, Index: 2195
+Input Too Long: 1004, Index: 2213
+Input Too Long: 776, Index: 2242
+Input Too Long: 954, Index: 2248
+Input Too Long: 1134, Index: 2249
+Input Too Long: 3444, Index: 2275
+Input Too Long: 3446, Index: 2283
+Input Too Long: 12623, Index: 2290
+Input Too Long: 1484, Index: 2297
+Input Too Long: 971, Index: 2319
+Input Too Long: 1820, Index: 2320
+Input Too Long: 4262, Index: 2323
+Input Too Long: 1325, Index: 2324
+Input Too Long: 1692, Index: 2342
+Input Too Long: 1301, Index: 2354
+Input Too Long: 1067, Index: 2374
+Input Too Long: 1449, Index: 2382
+Input Too Long: 1313, Index: 2385
+Input Too Long: 14020, Index: 2391
+Input Too Long: 1335, Index: 2397
+Input Too Long: 2605, Index: 2402
+Input Too Long: 977, Index: 2410
+Input Too Long: 3449, Index: 2415
+Input Too Long: 1395, Index: 2453
+Input Too Long: 2019, Index: 2455
+Input Too Long: 1245, Index: 2462
+Input Too Long: 1519, Index: 2467
+Input Too Long: 3056, Index: 2479
+Input Too Long: 2788, Index: 2483
+Input Too Long: 2156, Index: 2485
+Input Too Long: 593, Index: 2505
+Input Too Long: 2752, Index: 2513
+Input Too Long: 1612, Index: 2533
+Input Too Long: 2735, Index: 2534
+Input Too Long: 840, Index: 2567
+Input Too Long: 5207, Index: 2586
+Input Too Long: 19451, Index: 2607
+Input Too Long: 2824, Index: 2615
+Input Too Long: 784, Index: 2627
+Input Too Long: 1035, Index: 2640
+Input Too Long: 22483, Index: 2644
+Input Too Long: 1665, Index: 2649
+Input Too Long: 4699, Index: 2666
+Input Too Long: 1425, Index: 2684
+Input Too Long: 1148, Index: 2692
+Input Too Long: 1461, Index: 2717
+Input Too Long: 8209, Index: 2733
+Input Too Long: 3852, Index: 2740
+Input Too Long: 1672, Index: 2745
+Input Too Long: 3303, Index: 2750
+Input Too Long: 5688, Index: 2775
+Input Too Long: 814, Index: 2777
+Input Too Long: 2836, Index: 2802
+Input Too Long: 1072, Index: 2810
+Input Too Long: 1054, Index: 2815
+Input Too Long: 2268, Index: 2816
+Input Too Long: 2401, Index: 2825
+Input Too Long: 1570, Index: 2855
+Input Too Long: 889, Index: 2861
+Input Too Long: 1252, Index: 2865
+Input Too Long: 2366, Index: 2876
+Input Too Long: 2683, Index: 2879
+Input Too Long: 1655, Index: 2880
+Input Too Long: 3474, Index: 2883
+Input Too Long: 560, Index: 2888
+Input Too Long: 2687, Index: 2898
+Input Too Long: 5456, Index: 2931
+Input Too Long: 6265, Index: 2932
+Input Too Long: 4041, Index: 2933
+Input Too Long: 1057, Index: 2936
+Input Too Long: 4360, Index: 2956
+Input Too Long: 1922, Index: 2957
+Input Too Long: 6586, Index: 2966
+Input Too Long: 5550, Index: 2980
+Input Too Long: 4608, Index: 2991
+Input Too Long: 650, Index: 3015
+Input Too Long: 1287, Index: 3040
+02/27/2025 01:09:28 - INFO - __main__ -   Load Dataset Success.
+02/27/2025 01:09:28 - WARNING - accelerate.utils.other -   Detected kernel version 5.4.241, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+02/27/2025 01:09:28 - INFO - __main__ -   Model train...
+02/27/2025 01:09:28 - INFO - __main__ -   ***** Running training *****
+02/27/2025 01:09:28 - INFO - __main__ -         Batch size = 16
+02/27/2025 01:09:28 - INFO - __main__ -         Num epoch = 10
+02/27/2025 01:09:28 - INFO - __main__ -   ****************************
+02/27/2025 01:09:28 - INFO - __main__ -     epoch = 0
+Input Too Long: 1190, Index: 3058
+Input Too Long: 2813, Index: 3080
+Input Too Long: 1189, Index: 3085
+Input Too Long: 4118, Index: 3087
+Input Too Long: 13431, Index: 3103
+Input Too Long: 1273, Index: 3136
+Input Too Long: 5435, Index: 3156
+Input Too Long: 1676, Index: 3161
+Input Too Long: 7865, Index: 3167
+Input Too Long: 2951, Index: 3169
+Input Too Long: 925, Index: 3183
+Input Too Long: 1814, Index: 3188
+Input Too Long: 6054, Index: 3205
+Input Too Long: 2251, Index: 3213
+Input Too Long: 3646, Index: 3222
+Input Too Long: 1498, Index: 3234
+Input Too Long: 3507, Index: 3246
+Input Too Long: 4882, Index: 3261
+Input Too Long: 744, Index: 3289
+Input Too Long: 3387, Index: 3299
+Input Too Long: 10267, Index: 3310
+Input Too Long: 4606, Index: 3314
+Input Too Long: 4781, Index: 3321
+Input Too Long: 8571, Index: 3347
+Input Too Long: 2007, Index: 3395
+Input Too Long: 1039, Index: 3406
+Input Too Long: 1584, Index: 3428
+Input Too Long: 2035, Index: 3433
+Input Too Long: 2951, Index: 3435
+Input Too Long: 810, Index: 3437
+Input Too Long: 3198, Index: 3445
+Input Too Long: 604, Index: 3447
+Input Too Long: 765, Index: 3475
+Input Too Long: 871, Index: 3481
+Input Too Long: 8304, Index: 3514
+Input Too Long: 3374, Index: 3516
+../Data/train.jsonl,../Data/train-key.jsonl total size: 3253
+Input Too Long: 881, Index: 14
+Input Too Long: 13646, Index: 33
+Input Too Long: 18878, Index: 43
+Input Too Long: 828, Index: 50
+Input Too Long: 1658, Index: 56
+Input Too Long: 2836, Index: 71
+Input Too Long: 1123, Index: 88
+Input Too Long: 2851, Index: 92
+Input Too Long: 1882, Index: 125
+Input Too Long: 18517, Index: 147
+Input Too Long: 1861, Index: 156
+Input Too Long: 3249, Index: 178
+Input Too Long: 5101, Index: 198
+Input Too Long: 2585, Index: 207
+Input Too Long: 1499, Index: 229
+Input Too Long: 2776, Index: 232
+Input Too Long: 1418, Index: 272
+Input Too Long: 1243, Index: 285
+Input Too Long: 1488, Index: 306
+Input Too Long: 771, Index: 331
+Input Too Long: 1841, Index: 340
+Input Too Long: 2065, Index: 346
+Input Too Long: 5006, Index: 393
+Input Too Long: 1588, Index: 402
+Input Too Long: 999, Index: 406
+Input Too Long: 832, Index: 413
+Input Too Long: 569, Index: 430
+Input Too Long: 1336, Index: 431
+Input Too Long: 4029, Index: 440
+../Data/valid.jsonl,../Data/valid-key.jsonl total size: 418
+Passing a tuple of `past_key_values` is deprecated and will be removed in Transformers v4.48.0. You should pass an instance of `EncoderDecoderCache` instead, e.g. `past_key_values=EncoderDecoderCache.from_legacy_cache(past_key_values)`.
+02/27/2025 01:09:31 - INFO - __main__ -   Epoch: 0, Train_Step: 0/204, Train_Loss = 5.1832
+02/27/2025 01:11:15 - INFO - __main__ -   Epoch: 0, Train_Step: 200/204, Train_Loss = 1.2624
+02/27/2025 01:11:16 - INFO - __main__ -   epoch: 0, step: 203/204, loss: 1.2586, lr: 9.8e-06, oom: 0, time: 108s
+02/27/2025 01:11:16 - INFO - __main__ -   -------start validation--------
+02/27/2025 01:11:17 - INFO - __main__ -    0/27 , Val_Loss = 0.7888913750648499
+02/27/2025 01:11:21 - INFO - __main__ -   Validation Loss = 0.836924421566504
+02/27/2025 01:11:21 - INFO - __main__ -   Current is Best Loss = 0.836924421566504
+[2025-02-27 01:11:22,034] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+02/27/2025 01:11:27 - INFO - __main__ -   ---------end validation--------
+02/27/2025 01:11:27 - INFO - __main__ -     epoch = 1
+02/27/2025 01:11:28 - INFO - __main__ -   Epoch: 1, Train_Step: 0/204, Train_Loss = 0.8841
+02/27/2025 01:13:11 - INFO - __main__ -   Epoch: 1, Train_Step: 200/204, Train_Loss = 0.8286
+02/27/2025 01:13:13 - INFO - __main__ -   epoch: 1, step: 203/204, loss: 0.8285, lr: 9e-06, oom: 0, time: 105s
+02/27/2025 01:13:13 - INFO - __main__ -   -------start validation--------
+02/27/2025 01:13:13 - INFO - __main__ -    0/27 , Val_Loss = 0.7440013289451599
+02/27/2025 01:13:17 - INFO - __main__ -   Validation Loss = 0.7844572839913545
+02/27/2025 01:13:17 - INFO - __main__ -   Current is Best Loss = 0.7844572839913545
+02/27/2025 01:13:21 - INFO - __main__ -   ---------end validation--------
+02/27/2025 01:13:21 - INFO - __main__ -     epoch = 2
+02/27/2025 01:13:22 - INFO - __main__ -   Epoch: 2, Train_Step: 0/204, Train_Loss = 0.6988
+02/27/2025 01:15:05 - INFO - __main__ -   Epoch: 2, Train_Step: 200/204, Train_Loss = 0.7196
+02/27/2025 01:15:07 - INFO - __main__ -   epoch: 2, step: 203/204, loss: 0.7197, lr: 7.9e-06, oom: 0, time: 105s
+02/27/2025 01:15:07 - INFO - __main__ -   -------start validation--------
+02/27/2025 01:15:07 - INFO - __main__ -    0/27 , Val_Loss = 0.730850875377655
+02/27/2025 01:15:11 - INFO - __main__ -   Validation Loss = 0.7728512938375827
+02/27/2025 01:15:11 - INFO - __main__ -   Current is Best Loss = 0.7728512938375827
+02/27/2025 01:15:15 - INFO - __main__ -   ---------end validation--------
+02/27/2025 01:15:15 - INFO - __main__ -     epoch = 3
+02/27/2025 01:15:16 - INFO - __main__ -   Epoch: 3, Train_Step: 0/204, Train_Loss = 0.6548
+02/27/2025 01:16:59 - INFO - __main__ -   Epoch: 3, Train_Step: 200/204, Train_Loss = 0.6425
+02/27/2025 01:17:01 - INFO - __main__ -   epoch: 3, step: 203/204, loss: 0.6426, lr: 6.5e-06, oom: 0, time: 105s
+02/27/2025 01:17:01 - INFO - __main__ -   -------start validation--------
+02/27/2025 01:17:01 - INFO - __main__ -    0/27 , Val_Loss = 0.7328057289123535
+02/27/2025 01:17:05 - INFO - __main__ -   Validation Loss = 0.775463917741069
+02/27/2025 01:17:05 - INFO - __main__ -   Current Not Best Loss, Current Loss = 0.775463917741069, Best Loss is = 0.7728512938375827
+02/27/2025 01:17:05 - INFO - __main__ -   ---------end validation--------
+02/27/2025 01:17:05 - INFO - __main__ -     epoch = 4
+02/27/2025 01:17:07 - INFO - __main__ -   Epoch: 4, Train_Step: 0/204, Train_Loss = 0.543
+02/27/2025 01:18:49 - INFO - __main__ -   Epoch: 4, Train_Step: 200/204, Train_Loss = 0.5768
+02/27/2025 01:18:51 - INFO - __main__ -   epoch: 4, step: 203/204, loss: 0.577, lr: 5e-06, oom: 0, time: 105s
+02/27/2025 01:18:51 - INFO - __main__ -   -------start validation--------
+02/27/2025 01:18:52 - INFO - __main__ -    0/27 , Val_Loss = 0.739165186882019
+02/27/2025 01:18:56 - INFO - __main__ -   Validation Loss = 0.7830513550175561
+02/27/2025 01:18:56 - INFO - __main__ -   Current Not Best Loss, Current Loss = 0.7830513550175561, Best Loss is = 0.7728512938375827
+02/27/2025 01:18:56 - INFO - __main__ -   ---------end validation--------
+02/27/2025 01:18:56 - INFO - __main__ -     epoch = 5
+02/27/2025 01:18:57 - INFO - __main__ -   Epoch: 5, Train_Step: 0/204, Train_Loss = 0.5014
+02/27/2025 01:20:40 - INFO - __main__ -   Epoch: 5, Train_Step: 200/204, Train_Loss = 0.5316
+02/27/2025 01:20:41 - INFO - __main__ -   epoch: 5, step: 203/204, loss: 0.5315, lr: 3.5e-06, oom: 0, time: 105s
+02/27/2025 01:20:41 - INFO - __main__ -   -------start validation--------
+02/27/2025 01:20:42 - INFO - __main__ -    0/27 , Val_Loss = 0.7364778518676758
+02/27/2025 01:20:46 - INFO - __main__ -   Validation Loss = 0.7865681107397433
+02/27/2025 01:20:46 - INFO - __main__ -   Current Not Best Loss, Current Loss = 0.7865681107397433, Best Loss is = 0.7728512938375827
+02/27/2025 01:20:46 - INFO - __main__ -   ---------end validation--------
+02/27/2025 01:20:46 - INFO - __main__ -     epoch = 6
+02/27/2025 01:20:48 - INFO - __main__ -   Epoch: 6, Train_Step: 0/204, Train_Loss = 0.4479
+02/27/2025 01:22:30 - INFO - __main__ -   Epoch: 6, Train_Step: 200/204, Train_Loss = 0.4986
+02/27/2025 01:22:32 - INFO - __main__ -   epoch: 6, step: 203/204, loss: 0.4987, lr: 2.1e-06, oom: 0, time: 105s
+02/27/2025 01:22:32 - INFO - __main__ -   -------start validation--------
+02/27/2025 01:22:32 - INFO - __main__ -    0/27 , Val_Loss = 0.7414694428443909
+02/27/2025 01:22:37 - INFO - __main__ -   Validation Loss = 0.7836831189967968
+02/27/2025 01:22:37 - INFO - __main__ -   Current Not Best Loss, Current Loss = 0.7836831189967968, Best Loss is = 0.7728512938375827
+02/27/2025 01:22:37 - INFO - __main__ -   ---------end validation--------
+02/27/2025 01:22:37 - INFO - __main__ -     epoch = 7
+02/27/2025 01:22:38 - INFO - __main__ -   Epoch: 7, Train_Step: 0/204, Train_Loss = 0.4626
+02/27/2025 01:24:21 - INFO - __main__ -   Epoch: 7, Train_Step: 200/204, Train_Loss = 0.4762
+02/27/2025 01:24:22 - INFO - __main__ -   epoch: 7, step: 203/204, loss: 0.4764, lr: 1e-06, oom: 0, time: 105s
+02/27/2025 01:24:22 - INFO - __main__ -   -------start validation--------
+02/27/2025 01:24:23 - INFO - __main__ -    0/27 , Val_Loss = 0.7413192987442017
+02/27/2025 01:24:27 - INFO - __main__ -   Validation Loss = 0.7865932992211094
+02/27/2025 01:24:27 - INFO - __main__ -   Current Not Best Loss, Current Loss = 0.7865932992211094, Best Loss is = 0.7728512938375827
+02/27/2025 01:24:27 - INFO - __main__ -   ---------end validation--------
+02/27/2025 01:24:27 - INFO - __main__ -     epoch = 8
+02/27/2025 01:24:28 - INFO - __main__ -   Epoch: 8, Train_Step: 0/204, Train_Loss = 0.3653
+02/27/2025 01:26:11 - INFO - __main__ -   Epoch: 8, Train_Step: 200/204, Train_Loss = 0.4662
+02/27/2025 01:26:12 - INFO - __main__ -   epoch: 8, step: 203/204, loss: 0.4666, lr: 2e-07, oom: 0, time: 105s
+02/27/2025 01:26:12 - INFO - __main__ -   -------start validation--------
+02/27/2025 01:26:13 - INFO - __main__ -    0/27 , Val_Loss = 0.740882396697998
+02/27/2025 01:26:17 - INFO - __main__ -   Validation Loss = 0.7869721077106617
+02/27/2025 01:26:17 - INFO - __main__ -   Current Not Best Loss, Current Loss = 0.7869721077106617, Best Loss is = 0.7728512938375827
+02/27/2025 01:26:17 - INFO - __main__ -   ---------end validation--------
+02/27/2025 01:26:17 - INFO - __main__ -     epoch = 9
+02/27/2025 01:26:19 - INFO - __main__ -   Epoch: 9, Train_Step: 0/204, Train_Loss = 0.4147
+02/27/2025 01:28:00 - INFO - __main__ -   Epoch: 9, Train_Step: 200/204, Train_Loss = 0.4593
+02/27/2025 01:28:01 - INFO - __main__ -   epoch: 9, step: 203/204, loss: 0.4598, lr: 0.0, oom: 0, time: 103s
+02/27/2025 01:28:01 - INFO - __main__ -   -------start validation--------
+02/27/2025 01:28:02 - INFO - __main__ -    0/27 , Val_Loss = 0.7407463788986206
+02/27/2025 01:28:05 - INFO - __main__ -   Validation Loss = 0.7872415482997894
+02/27/2025 01:28:05 - INFO - __main__ -   Current Not Best Loss, Current Loss = 0.7872415482997894, Best Loss is = 0.7728512938375827
+02/27/2025 01:28:05 - INFO - __main__ -   This is Last Checkpoint, Current Loss = 0.7872415482997894, Best Loss is = 0.7728512938375827
+02/27/2025 01:28:09 - INFO - __main__ -   ---------end validation--------
